@@ -11,8 +11,9 @@
 7. ~~update engines from node 5.11.1 to 6.2.1~~
 8. ~~compress images~~
 9. ~~fix arrow under hero buttons~~
-10. tidy up /swimming-pools images & presentation
-11. uglify public javascript assets
-12. migrate server off cloudflare to reverse proxy (e.g. nginx)
-13. on /about-us, fix "choose which services" click problem
-14. get blog up and running (fix CSS; maybe use Ghost?)
+10. ~~fix facebook link to correct page~~
+11. tidy up /swimming-pools images & presentation
+12. uglify public javascript assets
+13. migrate server off cloudflare to reverse proxy (e.g. nginx)
+14. on /about-us, fix "choose which services" click problem
+15. get blog up and running (fix CSS; maybe use Ghost?)
