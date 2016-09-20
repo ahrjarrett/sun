@@ -1,0 +1,15 @@
+.accord
+	.show-arrow
+	.child-row
+		each card, i in accordion
+			.child
+				.child-card.ct
+					.card-head
+						p= card.head
+					.card-body(id='accordionParent#{i}')
+						each val in card.body
+							.card-item(data-parent='accordionParent#{i}' data-toggle='collapse' data-target='#demo#{val.id}')
+								a: p= val.display
+									.collapse(id='demo#{val.id}')
+										p.val-hidden= val.hidden
+.clearfix

@@ -1,0 +1,8 @@
+.footer-bottom
+	.copyright
+		p © 2016 #{company} 
+	.social
+		p Follow us!
+			each val, index in social
+				a(href= index target='_blank')
+					i(class="fa fa-#{val}")

@@ -1,0 +1,7 @@
+include ./includes/layout
+include ./mixins/mixins
+body
+	block content
+		+blogpost(article, metadata)
+		//- include ./blog/_first.post.jade
+		+footerbg('black')

@@ -1,0 +1,14 @@
+@mixin infoColor ($class, $base) {
+	.color-#{$class} {
+		@media (max-width:768px){
+			h3 {
+				background: $base;
+			}
+		}
+		@media (min-width:768px){
+			h3 {
+				background: transparentize($base, 0.15);
+			}
+		}
+	}
+}

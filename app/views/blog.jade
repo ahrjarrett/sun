@@ -1,0 +1,7 @@
+include ./includes/layout
+include ./mixins/mixins
+body
+	block content
+		+blogpost(article, metadata)
+		+footerbg('black')
+

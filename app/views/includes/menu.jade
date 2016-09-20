@@ -1,0 +1,9 @@
+#menuDiv
+	section#featured-posts
+		each val in features.rowtwo
+			.featured-post(style='background-image: url(images/#{val[0]}')
+				a(href='#{val[3]}', class='' rel='group')
+					h2.meta-type.story-type= val[1] 
+					.post-meta
+						span= val[4]
+.clearfix

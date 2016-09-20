@@ -1,0 +1,45 @@
+doctype html
+//
+	|
+
+	     ,;;;;;,                                
+	    ,''';,,';
+	    ;,'';,,';
+	     ';;;;;'
+
+	  SUN RAY POOLS
+
+
+html(lang='en')
+	head
+		meta(charset='UTF-8')
+		meta(name='viewport' content='width=device-width, initial-scale=1')
+		meta(http-equiv='x-ua-compatible' content='ie=edge')
+		meta(name='description' content='Sun Ray Pools serves the Texas areas of Rockwall, McKinney, Plano and the entire Dallas Metroplex. Our areas of expertise include residential pools, outdoor living, pool design and pool construction, and swim spa construction and renovation.')
+		meta(name='referrer', content='always')
+		meta(name='keywords', content='texas swimming pool construction renovation design dallas metroplex rockwall mckinney plano residential swim spas outdoor kitchen')
+		meta(name='google-site-verification' content='djCgFUUMTH_sPyzyZqCePC5ZI7P-uk1CZhcG5LD4OgY')
+		title #{title} | #{company}
+		link(rel='canonical', href='http://www.sunraypoolstx.com')
+		link(type='text/plain' rel='robots' href='/robots.txt')
+		link(type='text/plain' rel='author' href='/humans.txt')
+		block css
+			link(rel='stylesheet', href='/lib/bootstrap/css/bootstrap.css')
+			link(rel='stylesheet', href='/lib/font-awesome/font-awesome.min.css')
+			link(rel='stylesheet', href='/lib/fancybox/jquery.fancybox.css?v=2.1.5')
+			link(rel='stylesheet', href='/css/main.css')
+		block js
+			script(src='/lib/jquery/jquery-1.12.3.js')
+			script(src='/lib/bootstrap/js/bootstrap.js')
+			script(src='/lib/fancybox/jquery.fancybox.pack.js?v=2.1.5')
+			script(src='/js/bundle.js')
+			script(src='/lib/skycons/skycons.js')
+			script.
+				(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+				(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+				m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+				})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+				ga('create', 'UA-44566775-1', 'auto');
+				ga('send', 'pageview');
+			if ENV_DEVELOPMENT
+				script(src='http://localhost:35729/livereload.js')

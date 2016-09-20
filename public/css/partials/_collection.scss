@@ -1,0 +1,40 @@
+#carousel-wrapper {
+
+}
+
+span.carousel-btn {
+	font-size: 30px;
+	color: #ddd;
+	cursor: pointer;
+	&.icon-left {
+		margin-left: -15px;
+	}
+	&.icon-right {
+		margin-right: -15px;
+	}
+	&.icon-left:before {
+		content: "<";
+	}
+	&.icon-right:before {
+		content: ">";
+	}
+}
+
+.collection-properties {
+	display: flex;
+	li {
+		width: 33.333%;
+		padding: 0;
+		margin-right: 15px;
+		
+	}
+}
+
+
+
+
+.photo-card-img {
+	img {
+		width: 100%;
+	}
+}

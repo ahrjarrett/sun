@@ -1,0 +1,16 @@
+include ./includes/layout
+include ./mixins/mixins
+
+body
+  block content
+    +fullnav(url)
+    .fiftypx
+    include ./includes/spotlight
+    include ./includes/menu
+    +textblock(url)
+      include ./includes/_portfolio
+    include ./includes/cta
+    +footerbg('black')
+
+
+

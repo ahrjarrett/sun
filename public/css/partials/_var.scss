@@ -1,0 +1,251 @@
+// ==================================== //
+// =============== _VAR =============== //
+// ==================================== //
+
+//***********************//
+//******** FONTS ********//
+//***********************//
+
+$logoFont: undefined;
+$iconFont: 'FontAwesome';
+
+$sans: 'OpenSans-Book', sans-serif;
+$sansItal: 'OpenSans-BookItalic', sans-serif;
+$sansBold: 'OpenSans-Bold', sans-serif;
+$sansBoldItal: 'OpenSans-BoldItalic', sans-serif;
+$sansLight: 'OpenSans-Light', sans-serif;
+$sansLightItal: 'OpenSans-LightItalic', sans-serif;
+$sansSemibold: 'OpenSans-Semibold', sans-serif;
+$sansSemiboldItal: 'OpenSans-Semibold', sans-serif;
+$sansBlack: 'OpenSans-Black', sans-serif;
+
+$sansBlock: OpenSans-Book, sans-serif;
+$sansBlockItal: OpenSans-BookItal, sans-serif;
+$sansBlockBold: OpenSans-Semibold, sans-serif;
+$sansBlockBoldItal: OpenSans-SemiboldItalic, sans-serif;
+
+
+$serif: 'Sentinel-Book', serif;
+$serifItal: 'Sentinel-BookItalic', serif;
+$serifMedium: 'Sentinel-Medium', serif;
+$serifSemibold: 'Sentinel-Semibold', serif;
+$serifBold: 'Sentinel-Semibold', serif;
+$serifBoldItal: 'Sentinel-SemiboldItalic', serif;
+$serifLight: 'Sentinel-Light', serif;
+
+//************************//
+//******** COLORS ********//
+//************************//
+$main: rgba(0, 116, 228, 1);
+$mainLight: rgba(35, 126, 219, 1);
+$mainBright: #55a4ff;
+$mainDark: rgba(24, 52, 93, 1);
+$mainDarker: #23527c;
+$mainDarkest: rgba(27,80,152,1);
+
+$mainTransDark: transparentize($mainDark, 0.15);
+$mainHover: opacify($main, .25);
+$mainAltTrans: transparentize($main, .25);
+$mainAltTransLight: transparentize($main, 0.5);
+$mainTrans: transparentize($mainBright, .25);
+
+$mainGradientDown:linear-gradient(to bottom, $main,$mainDarkest);
+
+$accent: #74c005;
+$accentDark: lighten($accent, .50);
+$accentTrans: transparentize($accent, .20);
+$accentTransLight: transparentize($accent, .50);
+$accentBright: #589004;
+
+$offWhight: rgba(238, 238, 238, 1);
+$offBlack: rgba(0, 0, 0, 0.85);
+$neutral: #e2effc;
+$neutralDark: #939da5;
+
+// typography-specific //
+$blockText: rgba(51, 51, 51, 1);
+$blockAnchor: $main;
+$blockAnchorHover: rgba(123,192,255,1);
+$visited: #640096;
+
+$overlay: rgba(25, 52, 93, 1);
+$overlayBase: rgba(25, 52, 93, 0.4);;
+$overlayLight: lighten($overlayBase, 0.4);
+$overlayDark: darken($overlayBase, 0.4);
+
+
+// MIXINS
+$whiteStripes: repeating-linear-gradient(45deg, #f4f6f7, #f4f6f7 12px, #f7f9fa 0, #f7f9fa 20px);
+
+
+
+///////////////////////
+///////////////////////
+///////////////////////
+
+
+$blue: #0074e4;
+$bluer: #55a4ff;
+$blueish: #718087;
+$blueBright: #0074e4;
+$blueDark: #23527c;
+
+$blueTrans: rgba(0,116,228,.75);
+$darkBlueTrans: rgba(24,52,93,.85);
+$greenTrans: rgba(116,192,5,.75);
+
+$green: #74c005;
+$pinkButton: #D01040;
+
+$bgLight: #f8fbff;
+
+$darkGrey: #242628;
+$slate: #282d31;
+
+$grey: #718087;
+$midGrey: #939da5;
+$lightGrey: #e2edf2;
+
+$black: #212425;
+$blue: #5ba4e5;
+$deepBlue: #2f8cde;
+$yellow: #ffe600;
+$beige: #e9e8dd;
+
+$color-1: #282d31;
+$color-2: #404041;
+
+
+$greenish: #a6b4b6;
+$whitish: #eceded;
+$white: #ffffff;
+
+$red: #e25440;
+$orange: #F2A925;
+
+$brown: #aaa9a2;
+$midBrown: #c0bfb6;
+$lightBrown: #edece4;
+$inputFocus: #226492;
+$purple: #333c4e;
+$offWhite: #F3F4F8;
+$color-3: #F3F4F8;
+
+
+
+
+// $mainDark: #226492;
+// $mainLight: #5ba4e5;
+// $main: #0074e4;
+// $main: #333c4e;
+// $mainLight: #718087;
+// $mainDark: #282d31;
+// $mainDarker: #212425;
+// $mainBright: saturate($main, .15);
+// $mainLight: lighten($main, .15);
+// $mainDark: darken($main, .15);
+// $mainDarker: darken($main, .25);
+// $mainTransDark: transparentize($main, .10);
+
+// $accent: rgba(0, 116, 228, 1);
+// $accentBright: saturate($accent, .50);
+// $accentBright: darken($accent, 1);
+
+// $offWhite: #F3F4F8;
+// $offWhite: #f8fbff;
+
+
+
+// FontAwesome
+ 
+// GrandHotel-Regular
+
+// Gotham-Thin
+// Gotham-ThinItalic
+// Gotham-ExtraLight
+// Gotham-ExtraLightItalic
+// Gotham-Light
+// Gotham-LightItalic
+// Gotham-Book
+// Gotham-BookItalic
+// Gotham-Medium
+// Gotham-MediumItalic
+// Gotham-Bold
+// Gotham-BoldItalic
+// Gotham-Black
+// Gotham-BlackItalic
+// Gotham-Ultra
+// Gotham-UltraItalic
+
+// Sentinel-Light
+// Sentinel-LightItalic
+// Sentinel-Book
+// Sentinel-BookItalic
+// Sentinel-Medium
+// Sentinel-MediumItalic
+// Sentinel-Semibold
+// Sentinel-SemiboldItalic
+// Sentinel-Bold
+// Sentinel-BoldItalic
+// Sentinel-Black
+// Sentinel-BlackItalic
+
+// Tungsten-Medium
+// Tungsten-Semibold
+// Tungsten-Bold
+// Tungsten-Black
+
+// Archer-Hairline
+// Archer-HairlineItalic
+// Archer-Thin
+// Archer-ThinItalic
+// Archer-ExtraLight
+// Archer-ExtraLightItalic
+// Archer-Light
+// Archer-LightItalic
+// Archer-Book
+// Archer-BookItalic
+// Archer-Medium
+// Archer-MediumItalic
+// Archer-Semibold
+// Archer-SemiboldItalic
+// Archer-Bold
+// Archer-BoldItalic
+
+// Brandon-Thin
+// Brandon-ThinItalic
+// Brandon-Light
+// Brandon-LightItalic
+// Brandon-Book
+// Brandon-BookItalic
+// Brandon-Medium
+// Brandon-MediumItalic
+// Brandon-Bold
+// Brandon-BoldItalic
+// Brandon-Black
+// Brandon-BlackItalic
+
+// OpenSans-Light
+// OpenSans-LightItalic
+// OpenSans-Book
+// OpenSans-BookItalic
+// OpenSans-Semibold
+// OpenSans-SemiboldItalic
+// OpenSans-Bold
+// OpenSans-BoldItalic
+// OpenSans-Black
+// OpenSans-BlackItalic
+
+// Avenir-Light
+// Avenir-LightItalic
+// Avenir-Book
+// Avenir-BookItalic
+// Avenir-Roman
+// Avenir-RomanItalic
+// Avenir-Medium
+// Avenir-MediumItalic
+// Avenir-Heavy
+// Avenir-HeavyItalic
+// Avenir-Black
+// Avenir-BlackItalic
+

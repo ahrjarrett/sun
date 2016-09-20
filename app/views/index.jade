@@ -1,0 +1,11 @@
+include ./includes/layout
+include ./mixins/mixins
+body
+	block content
+		include ./includes/nav-alt
+		include ./includes/hero
+		+infoblock(info, 'accent')
+		+wordsandheads(quotes)
+		+infoblock(info1, 'main')
+		include ./includes/logos-alt
+		+footerbg('black')

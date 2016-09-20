@@ -1,0 +1,8 @@
+include ./includes/layout
+include ./mixins/mixins
+body
+  h1.err= message
+  h2.err= error.status
+  h2.err: a(href='/') &larr; Go back home
+  //- turn err msg on/off depending on env
+  pre #{error.stack}

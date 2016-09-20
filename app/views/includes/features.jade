@@ -1,0 +1,25 @@
+#featuredDiv
+	section#featured-categories
+		each val, index in features.rowone
+			.featured-category(style='background-image: url(images/#{val[1]}')
+				a(class='fa fa-#{val[2]} lightbox' title= '#{val[0]}: 1' href='images/#{val[1]}', rel='gallery#{index}')
+					h2 #{val[0]}
+			.hidden.hidden-gallery
+				a.lightbox(rel='gallery#{index}' title='#{val[0]}: 2', href='images/#{val[3][0]}')
+				a.lightbox(rel='gallery#{index}' title='#{val[0]}: 3', href='images/#{val[3][1]}')
+				a.lightbox(rel='gallery#{index}' title='#{val[0]}: 4', href='images/#{val[3][2]}')
+				a.lightbox(rel='gallery#{index}' title='#{val[0]}: 5', href='images/#{val[3][3]}')
+.clearfix
+//- .hidden.hidden-gallery
+//- 	a.lightbox(rel='gallery0', title='Gallery 0 - 1', href='images/slide10.jpg')
+//- 	a.lightbox(rel='gallery0', title='Gallery 0 - 1', href='images/slide11.jpg')
+//-.hidden
+//- 	a.fancybox(rel='gallery1', title='Gallery 1 - 2', href='http://fancyapps.com/fancybox/demo/2_b.jpg')
+//- 		img(src='http://fancyapps.com/fancybox/demo/2_s.jpg', alt='')
+//- 	a.fancybox(rel='gallery1', title='Gallery 1 - 3', href='http://fancyapps.com/fancybox/demo/3_b.jpg')
+//- 		img(src='http://fancyapps.com/fancybox/demo/3_s.jpg', alt='')
+//- a.fancybox(rel='gallery2', title='Gallery 2 - 1', href='http://fancyapps.com/fancybox/demo/4_b.jpg')
+//- 	img(src='http://fancyapps.com/fancybox/demo/4_s.jpg', alt='')
+//- .hidden
+//- 	a.fancybox(rel='gallery2', title='Gallery 2 - 2', href='http://fancyapps.com/fancybox/demo/5_b.jpg')
+//- 		img(src='http://fancyapps.com/fancybox/demo/5_s.jpg', alt='')

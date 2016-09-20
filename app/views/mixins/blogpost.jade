@@ -1,0 +1,89 @@
+mixin blogpost(article, metadata)
+	body.single-post
+		ul#share
+			each medium in metadata.media
+				li: a(href=medium.link class=medium.name target=_blank)
+					i(class='fa fa-#{medium.icon}' style='background:' + medium.color)
+
+		#breadcrumbs(position:static)
+			.crumb.container
+				a: span.rootspan Home
+				a: span Taking Care of Your Pool
+
+		.post-banner
+			nav#nav.navbar.navbar-fixed-top
+				.container
+					.navbar-header
+						span.navbar-brand
+							a: img(src='/images/logo-horizontal.png')
+							span.navbar-brand-text
+								a(href='/' alt= company)
+						ul.nav.navbar-nav.navbar-right
+							li: a.search-toggle
+								i.fa.fa-search
+							li: a.subnav-toggle
+								i.fa.fa-bars
+
+			.header-bg(style='background:url(/images/#{metadata.bgimg})')
+				.blog-header
+					.header-text
+						.text-card
+							h1.post-title= article.title
+							- var date = new Date()
+							span.post-author By #[a(href='#')= metadata.author.name] on #[strong= date]
+							span.header-category= metadata.category
+
+		.post-wrap
+			.content.content-main.container
+				main#content-main
+					article(class='post-#{metadata.postid}')
+						section.entry-content
+							p.post-lead= article.lead
+							+textblock(url)
+								include ../blog/_first-post
+						//- footer
+						//- 	h3 About the Author
+						//- 	.media
+						//- 		.media-left
+						//- 		.media-body
+						//- 			h4.media-heading= metadata.author.bio
+				aside.sidebar
+					if blog.features
+						.widget.featured-posts
+							h3 Featured Posts
+							ul
+								each feature, index in blog.features
+									li: a(href=feature.link)= feature.title
+										.share-post
+											a: i.fa.fa-facebook-square
+											a: i.fa.fa-twitter-square
+											a: i.fa.fa-google-plus-square
+					if blog.newnews
+						.widget.recent-posts
+							h3 Recent Posts
+							ul
+								each story in blog.newnews
+									li: a(href=story.link)= story.title
+										.share-post
+											a: i.fa.fa-facebook-square
+											a: i.fa.fa-twitter-square
+											a: i.fa.fa-google-plus-square
+					if metadata.tags
+						.widget.post-tags
+							h3 Tags
+							.tagcloud: ul
+								each tag in metadata.tags
+									li: a(href='#{tag.link}')= tag.title
+										.share-post
+		.sidebar-footer
+			.container
+				.widget.subscribe
+					h3 Subscribe to our Newsletter
+					p We will share or spam your account, ever. Please read and review our privacy policy.
+					form(class='email-capture blog-form' method='POST')
+						.form-group
+							input.form-control(placeholder='Email Address' type='email')
+							input.btn.btn-primary(value='Subscribe' type='submit')
+
+
+

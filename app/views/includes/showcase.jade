@@ -1,0 +1,17 @@
+.showcase-wrapper
+  .showcase
+    each val, i in showcase
+      a.card-wrapper(href='#showcase-item-' + i)
+        .showcase-item.smooth-scroll(class='showcase-item-#{i}')
+          .show-card
+            .circle
+              img(src='images/#{val.img}')
+            .show-card-right
+              h2= val.head
+              p= val.body
+              .show-card-bottom-wrapper
+                .show-card-bottom
+                  hr
+                  .show-card-footer
+                    i.fa.fa-chevron-down
+.clearfix

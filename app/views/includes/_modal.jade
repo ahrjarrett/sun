@@ -1,0 +1,24 @@
+#modal.modal(style='display: none')
+	form
+		input(placeholder='Your Name')
+		input(placeholder='Email Address')
+		input(placeholder='Phone Number')
+
+#open-modal.modal-dialog
+	.modal-content
+		header.modal-header.ct
+			a.modal-close(data-dismiss='modal', aria-hidden='true', href='#')
+				span.hidden Close
+			br
+			br
+			h4.modal-title.ct  Get ready for summer!
+			p
+				| Enter your information below to get 
+				em 10 Steps to a Perfect Pool
+		.modal-body.ct
+			form#subForm(action='http://sunraypools.createsend.com/t/d/s/utkjju/', method='POST')
+				input#fieldName(name='cm-name', type='text', placeholder='Your Name', required)
+				input#fieldEmail(name='cm-utkjju-utkjju', type='email', placeholder='Email Address', required)
+				input#fieldPhone(name='cm-f-dilla', type='text', placeholder='Phone Number', required)
+				button.button-add.button-blue.wide(type='submit') Download Now 
+				p No spam. Unsubscribe any time.

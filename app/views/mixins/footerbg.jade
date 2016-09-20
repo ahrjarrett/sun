@@ -1,0 +1,8 @@
+mixin footerbg(background)
+	#footer.footer(class=background + '-footer')
+		.footer-top(style={background: background})
+			include ../includes/_links
+			include ../includes/_copy
+	include ../includes/_modal
+	include ../includes/_modal-contact
+	include ../includes/snap-engage

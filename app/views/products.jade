@@ -1,0 +1,14 @@
+include ./includes/layout
+include ./mixins/mixins
+
+body
+  block content
+    +fullnav(url)
+    .fiftypx
+    include ./includes/spotlight
+    include ./includes/showcase
+    //- include ./includes/accordion
+    +textblock(url)
+      include ./includes/_about-us
+    +footerbg('black')
+    

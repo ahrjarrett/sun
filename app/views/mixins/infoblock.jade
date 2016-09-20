@@ -1,0 +1,17 @@
+mixin infoblock(data, color)
+	- var info= data
+	.info-items.page-width(class='info-#{info.class}' id='info-#{info.class}')
+		.header: h2=info.header
+		.info-items-wrapper
+			ul.info-list
+				each card, index in info.cards
+					li.info-item
+						.info
+							.img-wrapper
+								img.info-img(src='/images/#{card.image}')
+								.img-after(class='color-#{color}')
+									h3=card.title
+							.caption
+								p.sm-hide=card.body
+								p.p-caption=card.caption
+								a(href='/' + card.anchor.route)=card.anchor.text

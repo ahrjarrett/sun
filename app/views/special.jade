@@ -1,0 +1,10 @@
+include ./includes/layout
+include ./mixins/mixins
+body
+	block content
+		+fullnav(url)
+		include ./includes/hero
+		include ./includes/logos-alt
+		include ./includes/_special-features
+		+footerbg('#242628')
+

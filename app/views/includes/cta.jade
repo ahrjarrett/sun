@@ -1,0 +1,27 @@
+#landingMain.landingBG
+	.mainImg(style='background: url(/images/#{cta.bg}); background-size: cover; background-position: center center;')
+		.trapezoid-wrapper
+			h1.trapezoid= cta.header
+		.landing-overlay
+			.overlay-content
+				.overlay-form
+					.overlay-title
+						h1= cta.subheader
+						p ENTER YOUR DETAILS TO RECEIVE YOUR FREE INFORMATION
+						form.landing-form(action='http://sunraypools.createsend.com/t/d/s/utkjju/' method='POST')
+							input#landing-name(type='text' name='cm-name' placeholder='Your Name' required)
+							input#landing-zip(type='text' name='cm-f-dilla' placeholder='Phone Number' required)
+							input#landing-email(type='email' name='cm-utkjju-utkjju' placeholder='Email Address' required)
+							button.landing-button.btn-accent(type='submit') Continue
+				.landing-contact-us
+					p.questions Got a question?
+					.contact-us-btn
+						a.contact-btn.btn-accent(href='tel:#{phone}') Call us
+					p.alt-question 8am - 5pm, Mon - Fri
+	if links	
+		.landing-details
+			.sub-detail
+				| Related Links:
+				each val, index in cta.links
+					a(href= val)= index
+

@@ -1,0 +1,22 @@
+#modal.modal(style='display: none')
+	form
+		input(placeholder='Your Name')
+		input(placeholder='Email Address')
+		input(placeholder='Phone Number')
+
+#open-modal-contact.modal-dialog
+	.modal-content
+		header.modal-header.ct
+			a.modal-close(data-dismiss='modal', aria-hidden='true', href='#')
+				span.hidden Close
+			br
+			br
+			h4.modal-title.ct Tell us how we can help you
+			p Enter your information below to get in touch with us immediately!
+		.modal-body.ct
+			form#subForm(action='http://sunraypools.createsend.com/t/d/s/oltjrh/', method='POST')
+				input#fieldName(name='cm-name', type='text', placeholder='Your Name', required)
+				input#fieldEmail(name='cm-oltjrh-oltjrh', type='email', placeholder='Email Address', required)
+				input#fieldPhone(name='cm-f-dujtji', type='text', placeholder='Phone Number', required)
+				button.button-add.button-blue.wide(type='submit') Contact us
+				p No spam. Unsubscribe any time.

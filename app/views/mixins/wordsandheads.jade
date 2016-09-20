@@ -1,0 +1,20 @@
+mixin wordsandheads(data)
+	#words.words-wrapper
+		.words-background.ct(style='background: url(images/hs-lg-0.jpg); background-size: cover; background-position: center center;')
+			.words-overlay
+				.sentence
+					p#thewords “Bob and Diane made the pool installation an awesome experience.”
+					p#theheads Daryl & Gretta, Rowlett
+	.heads
+		ul.heads-list
+			each head, i in quotes.heads
+				case i
+					when 0
+						li(id='quote#{i}').head-item
+							a.head#head0.active
+								span.headshot(style='background:url(images/hs-sm-#{i}.jpg)')
+					default
+
+						li(id='quote#{i}').head-item
+							a.head
+								span.headshot(style='background:url(images/hs-sm-#{i}.jpg); background-size:cover;')

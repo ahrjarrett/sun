@@ -1,0 +1,33 @@
+- var ns = home.ns
+div(class='#{ns}-banner-wrapper')
+	.ct(id='#{ns}' class='#{ns}' style='background: url(/images/#{home.init}); background-size: cover; background-position: center center;')
+		div(class='#{ns}-cta')
+			div(class='#{ns}-cta-h1')
+				h1(id='#{ns}-header') #{home.sales.header}
+			div(class='#{ns}-cta-ul')
+				ul(id='#{ns}-ul')
+					each val, i in buttons
+						case i
+							when 0
+								a(id='#{ns}#{i}' class='active-btn' href='#')
+									li #{val}
+							default
+
+								a(id='#{ns}#{i}' href='#')
+									li #{val}
+			div(class='#{ns}-cta-btn')
+				form(action='http://sunraypools.createsend.com/t/d/s/utkjp/' method='POST')
+					input(placeholder='Enter your email for more info...' name='cm-utkjp-utkjp' type='email' required)
+					div(class='#{ns}-cta-btn-submit')
+						button.btn-main(type='submit')= home.btnMain 
+	#banner.banner(class='banner-#{ns}')
+		.banner-wrapper
+			a(href='#open-modal')
+				img(src='/images/#{home.icon}' class='#{ns}-icon')
+			p.flex-1
+				span#banner-a.bold.hidden-on-mobile
+					| #{home.sales.bannerA} →
+				span#banner-b.bold
+					| #{home.sales.bannerB}
+			a(href='#open-modal', style='color:white')
+				button.btn.btn-main(class='#{ns}-btn-home')= home.sales.btntext
