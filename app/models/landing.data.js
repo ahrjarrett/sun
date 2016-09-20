@@ -38,7 +38,7 @@ module.exports = function LandingData(opts) {
 						route: 'financing',
 						text: 'Ask about financing'
 					},
-					caption: 'Get info about our new mortgage and financing packages.'
+					caption: 'Get info about our mortgage and financing plans.'
 			},
 			{
 					title: 'Swimming Pools',
