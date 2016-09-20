@@ -29,11 +29,11 @@ module.exports = function LandingData(opts) {
 					},
 					bodySmall: 'Discover more about the outdoor lifestyle.'
 			},
-			{	
+			{
 					title: 'Financing',
 					image: 'slide60.jpg',
 					body: 'We have a team of lenders with money available right now for pool loans. If another builder or loan company has told you they can\'t help you, please give us a call.',
-					bodySmall: 'Get info about our new mortgage and financing packages.',
+					bodySmall: 'Get info about our mortgage and financing plans.',
 					anchor: {
 						route: 'financing',
 						text: 'Ask about financing'
