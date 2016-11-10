@@ -33,10 +33,10 @@ module.exports = function (app) {
 	});
 
   router.get('/reviews', function(req, res, next) {
-      var data = new ReviewsData();
-      res.render('reviews', {
-          title: data.title
-      });
+    var data = new ReviewsData();
+    res.render('reviews', {
+      title: data.title
+    });
   });
 
 	router.get('/outdoor-living', function (req, res, next) {
