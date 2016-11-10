@@ -731,7 +731,8 @@ p.val-hidden {
 			padding:15px;
 		}
 		font-size: 2.5em;
-	}	p#theheads {
+	}
+	p#theheads {
 		font-family:$sansBold;
 		text-transform:uppercase;
 		letter-spacing: 0.15em;
@@ -743,6 +744,17 @@ p.val-hidden {
 		margin-top:3em;
 	}
 }
+.more-reviews #moreReviews {
+
+  font-size: 22px;
+	a {
+				font-family: "Sentinel-Medium", serif;
+  color: #337ab7;
+	}
+}
+// refactor below into .sentence!
+
+
 ul.heads-list{
 	position: relative;
 	text-align: center;

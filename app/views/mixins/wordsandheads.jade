@@ -5,6 +5,10 @@ mixin wordsandheads(data)
 				.sentence
 					p#thewords “Bob and Diane made the pool installation an awesome experience.”
 					p#theheads Daryl & Gretta, Rowlett
+				.more-reviews
+					p#moreReviews
+						a(href='/reviews')
+							i See more testimonials here →
 	.heads
 		ul.heads-list
 			each head, i in quotes.heads

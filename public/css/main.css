@@ -2040,6 +2040,12 @@ p.val-hidden {
         margin-top: 2em;
         font-size: 1em; } }
 
+.more-reviews #moreReviews {
+  font-size: 22px; }
+  .more-reviews #moreReviews a {
+    font-family: "Sentinel-Medium", serif;
+    color: #337ab7; }
+
 ul.heads-list {
   position: relative;
   text-align: center;
