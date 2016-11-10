@@ -1,7 +1,4 @@
 module.exports = function (app) {
-	// if(!opts) {
-	// 	var opts = {};
-	// }
 
 	app.locals.company = 'Sun Ray Pools';
 	app.locals.phone = 9723330714;
@@ -29,7 +26,7 @@ module.exports = function (app) {
 			{
 				title: 'Feature 4 Title cool new features how with they integrate with our lives?',
 				link: 'feature4link'
-			}		
+			}
 		],
 		newnews: [
 			{
