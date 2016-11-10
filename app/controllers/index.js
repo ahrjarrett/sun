@@ -8,11 +8,12 @@ var BlogData      = require('../models/blog_index.data.js'),
 		PortfolioData = require('../models/portfolio.data.js'),
 		PostData      = require('../models/_firstpost.data.js'),
 		ProductData   = require('../models/product.data.js'),
+    ReviewsData   = require('../models/reviews.data.js'),
 		ServicesData  = require('../models/services.data.js'),
 		SpasData      = require('../models/spas.data.js'),
 		SpecialData   = require('../models/special.data.js'),
 		ThanksData    = require('../models/thanks.data.js');
-		
+
 module.exports = function (app) {
 
 	app.use('/', router);
@@ -30,6 +31,13 @@ module.exports = function (app) {
 			quotes: data.quotes
 		});
 	});
+
+  router.get('/reviews', function(req, res, next) {
+      var data = new ReviewsData();
+      res.render('reviews', {
+          title: data.title
+      });
+  });
 
 	router.get('/outdoor-living', function (req, res, next) {
 		var data = new LandingData();
