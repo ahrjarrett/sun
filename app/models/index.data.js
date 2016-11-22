@@ -13,7 +13,7 @@ module.exports = function IndexData(opts) {
 		icon: 'icon02.png',
 		btnMain: 'Submit',
 		sales: {
-			header: 'It’s Summertime.',
+			header: 'Sun Ray Pools',
 			bannerA: 'Download the Checklist',
 			bannerB: '10 Tips for a Perfect Pool',
 			btntext: 'Download'

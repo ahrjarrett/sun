@@ -39,7 +39,7 @@ $(function() {
 	var Data = {
 		'sales': {
 			'hero': hero0,
-			'header': 'It’s Summertime.',
+			'header': 'Sun Ray Pools',
 			'bannerA': 'Download the Guide &nbsp;&rarr;',
 			'bannerB': '10 Tips for a Perfect Pool'
 		},
