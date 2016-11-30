@@ -37,25 +37,25 @@ $(function() {
 	special.head = ['Special Features.','Eco-Friendly.','Hands-Free.','Cruise Control'];
 
 	var Data = {
-		'sales': {
+		'init0': {
 			'hero': hero0,
 			'header': 'Sun Ray Pools',
 			'bannerA': 'Download the Guide &nbsp;&rarr;',
 			'bannerB': '10 Tips for a Perfect Pool'
 		},
-		'dev': {
+		'init1': {
 			// 'hero': hero1,
 			'header': 'Relax.',
 			'bannerA': 'Download the Checklist &nbsp;&rarr;',
 			'bannerB': '11 Tricks for a Smooth Deploy(ment)'
 		},
-		'builds': {
+		'init2': {
 			// 'hero': hero2,
 			'header': 'Fire & Water.',
 			'bannerA': 'Download the Checklist &nbsp;&rarr;',
 			'bannerB': 'The 12 Secrets of Architecture'
 		},
-		'sexy': {
+		'init3': {
 			// 'hero': hero3,
 			'header': 'Outdoor Living.',
 			'bannerA': 'Download the Checklist &nbsp;&rarr;',
@@ -77,8 +77,8 @@ $(function() {
 		$('#hero').attr('style',
 			bgStart + hero0.src + bgEnd + bgStyles
 		);
-		$('#hero-header').replaceWith('<h1 id="hero-header">' + 
-			Data.sales.header
+		$('#hero-header').replaceWith('<h1 id="hero-header">' +
+			Data.init0.header
 		+ '</h1>');
 	});
 	$('#hero1').on('click', function(e){
@@ -87,7 +87,7 @@ $(function() {
 			bgStart + hero1.src + bgEnd + bgStyles
 		);
 		$('#hero-header').replaceWith('<h1 id="hero-header">' +
-			Data.dev.header
+			Data.init1.header
 		+ '</h1>');
 	});
 	$('#hero2').on('click', function(e){
@@ -97,17 +97,17 @@ $(function() {
 			bgStart + hero2.src + bgEnd + bgStyles
 		);
 		$('#hero-header').replaceWith('<h1 id="hero-header">' +
-			Data.builds.header
+			Data.init2.header
 		+ '</h1>');
 	});
 	$('#hero3').on('click', function(e){
 		e.preventDefault();
 		$('#hero').attr('style',
 			bgStart + hero3.src + bgEnd + bgStyles
-		);	
+		);
 		$('#hero-header').replaceWith(
 			'<h1 id="hero-header">' +
-			Data.sexy.header
+			Data.init3.header
 			+ '</h1>'
 		);
 	});
@@ -125,9 +125,9 @@ $(function() {
 		$('#special').attr('style',
 			bgStart + special0.src + bgEnd + bgStyles
 		);
-		$('#special-header').replaceWith('<h1 id="special-header">' + 
+		$('#special-header').replaceWith('<h1 id="special-header">' +
 			special.head[0]
-			//Data.sales.header
+			//Data.init0.header
 		+ '</h1>');
 	});
 	$('#special1').on('click', function(e){
@@ -153,7 +153,7 @@ $(function() {
 		e.preventDefault();
 		$('#special').attr('style',
 			bgStart + special3.src + bgEnd + bgStyles
-		);	
+		);
 		$('#special-header').replaceWith(
 			'<h1 id="special-header">' +
 			special.head[3]
@@ -203,9 +203,9 @@ $(function() {
 	});
 
 	$(".lightbox").fancybox({
-		padding : 0,			
+		padding : 0,
 		nextEffect  : 'fade',
-		prevEffect  : 'fade'			
+		prevEffect  : 'fade'
 	});
 
 	var icons = new Skycons({
