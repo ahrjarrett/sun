@@ -438,7 +438,7 @@ span.carousel-btn {
 .hero-cta, .special-cta {
   position: absolute;
   left: 50%;
-  top: 105px;
+  top: 150px;
   margin: 0 0 0 -305px;
   width: 610px; }
   .hero-cta ul, .special-cta ul {
@@ -481,7 +481,7 @@ span.carousel-btn {
     border-radius: 5px;
     box-shadow: none;
     color: #333;
-    font-size: 17px; }
+    font-size: 18px; }
     .hero-cta input:focus, .special-cta input:focus {
       outline: none; }
 
