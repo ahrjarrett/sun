@@ -53,7 +53,7 @@ module.exports = function IndexData(opts) {
 					},
 					caption: 'Know what you can expect.'
 			},
-			{	
+			{
 					title: 'Our Focus',
 					image: 'resource02.jpg',
 					body: 'Sun Ray Pools has one focus: Building unique and beautiful custom pools. Our job is to turn your dreams into a backyard reality that will be enjoyed and admired by friends and family for many years to come.',
@@ -93,7 +93,7 @@ module.exports = function IndexData(opts) {
 					},
 					caption: 'Custom features to make your pool truly one-of-a-kind.'
 			},
-			{	
+			{
 					title: 'Financing',
 					image: 'resource05.jpg',
 					body: 'There are numerous financing options available today that make it possible for everyone to own a swimming pool. We are committed to helping our customers secure the best financing available. We work with many local lenders, or with your financial institution of choice.',

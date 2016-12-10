@@ -1,5 +1,6 @@
 var express       = require('express'),
 		router        = express.Router();
+
 var BlogData      = require('../models/blog_index.data.js'),
 		FinanceData   = require('../models/finance.data.js'),
 		IndexData     = require('../models/index.data.js'),
@@ -20,6 +21,7 @@ module.exports = function (app) {
 
 	router.get('/', function (req, res, next) {
 		var data = new IndexData();
+
 		res.render('index', {
 			title: data.title,
 			url: data.url,
@@ -28,7 +30,8 @@ module.exports = function (app) {
 			home: data.home,
 			info: data.info,
 			info1: data.info1,
-			quotes: data.quotes
+			quotes: data.quotes,
+      weather: data.weather
 		});
 	});
 

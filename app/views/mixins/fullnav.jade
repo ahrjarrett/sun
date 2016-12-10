@@ -1,5 +1,5 @@
 mixin fullnav(currentPath)
-	- var pageUrl= currentPath 
+	- var pageUrl= currentPath
 
 	#nav.nav.sticky
 		#nav-top.nav-flex(role='navigation')
@@ -9,7 +9,7 @@ mixin fullnav(currentPath)
 						img(src='/images/sun-ray-pools-logo.png')
 			.nav-ghost-wrapper
 			.nav-map-wrapper.sm-hide
-				
+
 				ul.nav-map-ul
 					each path, value in nav
 						li.nav-map-li
@@ -43,4 +43,4 @@ mixin fullnav(currentPath)
 						each path, name in subnav
 							li.sub-nav-item(class=path == pageUrl ? 'active-link' : '')
 								a(href='/#{path}')= name
-								
+

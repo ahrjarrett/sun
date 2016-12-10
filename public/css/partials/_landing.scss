@@ -47,7 +47,7 @@
 	margin: 0 auto;
 	padding-left:20px;
 	padding-right:20px;
-	
+
 }
 .mainImg{
 	height: 570px;
@@ -240,11 +240,11 @@ div.sub-detail{
 	}
 	@media all and (max-width: 767px) {
 		input#landing-name {
-			width: 390px;			
-		}		
+			width: 390px;
+		}
 		input#landing-zip {
 			width: 120px;
-		}		
+		}
 		input#landing-email {
 			width: 330px;
 		}
@@ -254,7 +254,7 @@ div.sub-detail{
 	}
 	@media all and (max-width: 640px) {
 		display: flex;
-		flex-direction: column;			
+		flex-direction: column;
 		input {
 			margin: 0;
 			height: 36px;
@@ -263,7 +263,7 @@ div.sub-detail{
 		}
 		button {
 			margin-top: 5px;
-			min-width: 100%;			
+			min-width: 100%;
 		}
 	}
 }
@@ -374,7 +374,7 @@ div.contact-us-btn{
 	}
 	p {
 		padding-top: 18px;
-		font-size: 1.2em; 
+		font-size: 1.2em;
 	}
 }
 
@@ -430,7 +430,7 @@ div.contact-us-btn{
 			display: flex;
 			align-items: center;
 		}
-	} 
+	}
 }
 @media all and (max-width: 768px) {
 	.show-card {
@@ -675,7 +675,7 @@ p.val-hidden {
 	li {
 		list-style-type: disc;
 		margin-left: 36px;
-		padding-bottom: 6px;	
+		padding-bottom: 6px;
 	}
 }
 
@@ -720,7 +720,7 @@ p.val-hidden {
 	margin: 0 auto;
 	margin-top:-15px;
 	p {
-		color: #fff; 
+		color: #fff;
 		text-shadow: 0 0 4px black;
 		line-height: 1.6;
 	}
@@ -749,7 +749,7 @@ p.val-hidden {
   font-size: 22px;
 	a {
 				font-family: "Sentinel-Medium", serif;
-  color: #337ab7;
+  color: #55acee;
 	}
 }
 // refactor below into .sentence!
