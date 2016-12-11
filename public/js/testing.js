@@ -1,5 +1,9 @@
 $(function() {
 
+  //var output = function(content, target){
+    //target.innterHTML
+  //};
+
 	var imgDir = './images/';
 	var hero0 = new Image();
 	var hero1 = new Image();
@@ -221,5 +225,26 @@ $(function() {
 	for(i = list.length; i--; )
 	  icons.set(list[i], list[i]);
 	icons.play();
+
+  var tempDiv = document.getElementById('temperature');
+  var iconTarget = document.getElementById('weather-wrapper');
+
+  var request = $.ajax({
+    url: 'weather',
+    dataType: 'json'
+  });
+
+  request.done(function(data){
+    var temperature = Math.round(data.temperature);
+    var icon = data.icon;
+    tempDiv.innerHTML = temperature + '&#176';
+    //var weatherCanvas = document.createElement('canvas');
+    //weatherCanvas.id = icon;
+    //iconTarget.appendChild(weatherCanvas);
+  });
+
+  request.fail(function(){
+    console.log('Error!');
+  });
 
 } )

@@ -15,13 +15,15 @@ var BlogData      = require('../models/blog_index.data.js'),
 		SpecialData   = require('../models/special.data.js'),
 		ThanksData    = require('../models/thanks.data.js');
 
+var ForecastIo = require('forecastio');
+var weather = new ForecastIo('b4273f2056175820d34aa2636bac6ff5');
+
 module.exports = function (app) {
 
 	app.use('/', router);
 
 	router.get('/', function (req, res, next) {
 		var data = new IndexData();
-
 		res.render('index', {
 			title: data.title,
 			url: data.url,
@@ -34,6 +36,21 @@ module.exports = function (app) {
       weather: data.weather
 		});
 	});
+
+  router.get('/weather', function(req, res, next){
+    var latitude = 32.7767;
+    var longitude = -96.7970;
+    weather.forecast(latitude, longitude, function(err, data) {
+      if (err) {
+        next();
+        return;
+      }
+      res.json({
+        temperature: data.currently.temperature,
+        icon: data.currently.icon
+      });
+    });
+  });
 
   router.get('/reviews', function(req, res, next) {
     var data = new ReviewsData();
@@ -145,21 +162,6 @@ module.exports = function (app) {
 			metadata: data.metadata
 		});
 	});
-
-
-	// RAW CONTENT
-	// router.get('/financing', function(req, res) {
-	// 	res.render('financing');
-	// });
-	// router.get('/swim-spas', function(req, res) {
-	// 	res.render('swim-spas');
-	// });
-	// router.get('/swimming-pools', function(req, res) {
-	// 	res.render('pools');
-	// });
-	// router.get('/special-features', function(req, res) {
-	// 	res.render('special-features');
-	// });
 
 
 	// 301s

@@ -241,6 +241,10 @@ a:focus {
 input {
   color: #18345d; }
 
+.weather-icon {
+  width: 36;
+  height: 36; }
+
 .info-items {
   margin: 0 auto;
   margin-bottom: 40px;

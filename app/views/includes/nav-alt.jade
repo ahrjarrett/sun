@@ -15,9 +15,9 @@
           each val, index in social
             a(href= index target='_blank')
               i(class="fa fa-#{val}")
-      .nav-weather-wrapper
-        canvas#cloudy(width='36', height='36')
-        span 49°
+      .nav-weather-wrapper#weather-wrapper
+        canvas#cloudy.weather-icon(width='36', height='36')
+        span#temperature.weather-temperature
         //- canvas#partly-cloudy-day(width='36', height='36')
         //- span 98°
         //- span.call-now
