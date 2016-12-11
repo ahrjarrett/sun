@@ -403,12 +403,10 @@
 .nav-map-li {
 	list-style-type: none;
 	font-size: 1.15em;
-	padding-left: 12px;
-	padding-right: 12px;
 	a {
 		color: $black;
-		// text-transform: uppercase;
-		// font-family: $sansSemibold;
+    padding: 14px 12px;
+    height: 100%;
 		font-family: $sans;
 	}
 	a:hover {
@@ -1009,7 +1007,7 @@ li.active  {
 	background: none;
 	border: none;
 	padding: 0 20px;
-	margin-top: -2px;
+	margin-top: -3px;
 }
 
 #nav-mobile {

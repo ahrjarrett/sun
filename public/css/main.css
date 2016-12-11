@@ -802,11 +802,11 @@ span.carousel-btn {
 
 .nav-map-li {
   list-style-type: none;
-  font-size: 1.15em;
-  padding-left: 12px;
-  padding-right: 12px; }
+  font-size: 1.15em; }
   .nav-map-li a {
     color: #212425;
+    padding: 14px 12px;
+    height: 100%;
     font-family: "OpenSans-Book", sans-serif; }
   .nav-map-li a:hover {
     color: #0074e4;
@@ -1293,7 +1293,7 @@ li.active .headshot img {
   background: none;
   border: none;
   padding: 0 20px;
-  margin-top: -2px; }
+  margin-top: -3px; }
 
 #nav-mobile {
   position: absolute;
