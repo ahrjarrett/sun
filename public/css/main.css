@@ -763,6 +763,9 @@ span.carousel-btn {
     margin-right: 2rem; }
     .nav-weather-wrapper span a:hover {
       color: #55a4ff; }
+  .nav-weather-wrapper span.weather-temperature {
+    font-size: 1.7em;
+    margin-right: 0; }
 
 @media screen and (min-width: 768px) {
   .nav-ghost-wrapper {

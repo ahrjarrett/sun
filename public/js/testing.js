@@ -212,7 +212,7 @@ $(function() {
 		prevEffect  : 'fade'
 	});
 
-	var icons = new Skycons({
+	var skycons = new Skycons({
   	'color':'#0074E4',
   	'resizeClear': true
   }),
@@ -223,11 +223,11 @@ $(function() {
     ],
     i;
 	for(i = list.length; i--; )
-	  icons.set(list[i], list[i]);
-	icons.play();
+	  skycons.set(list[i], list[i]);
+	skycons.play();
 
   var tempDiv = document.getElementById('temperature');
-  var iconTarget = document.getElementById('weather-wrapper');
+  var iconDiv = document.querySelector('.weather-icon');
 
   var request = $.ajax({
     url: 'weather',
@@ -237,10 +237,9 @@ $(function() {
   request.done(function(data){
     var temperature = Math.round(data.temperature);
     var icon = data.icon;
-    tempDiv.innerHTML = temperature + '&#176';
-    //var weatherCanvas = document.createElement('canvas');
-    //weatherCanvas.id = icon;
-    //iconTarget.appendChild(weatherCanvas);
+    console.log(data);
+    tempDiv.innerHTML = temperature + '&#176;';
+    skycons.set('weather-icon', icon);
   });
 
   request.fail(function(){
