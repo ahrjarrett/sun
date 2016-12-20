@@ -1,9 +1,5 @@
 $(function() {
 
-  //var output = function(content, target){
-    //target.innterHTML
-  //};
-
 	var imgDir = './images/';
 	var hero0 = new Image();
 	var hero1 = new Image();
@@ -237,8 +233,7 @@ $(function() {
   request.done(function(data){
     var temperature = Math.round(data.temperature);
     var icon = data.icon;
-    console.log(data);
-    tempDiv.innerHTML = temperature + '&#176;';
+    if(tempDiv) tempDiv.innerHTML = temperature + '&#176;'
     skycons.set('weather-icon', icon);
   });
 
