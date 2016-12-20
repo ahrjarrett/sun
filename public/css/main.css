@@ -723,13 +723,15 @@ span.carousel-btn {
           flex: 1 100%; }
 
 .nav-social-wrapper {
-  margin: 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center; }
+  @media screen and (max-width: 1300px) {
+    .nav-social-wrapper {
+      margin: 0 20px 0 0; } }
   .nav-social-wrapper i {
     margin: 0 .75rem !important; }
 

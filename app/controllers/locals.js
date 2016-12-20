@@ -54,7 +54,7 @@ module.exports = function (app) {
 		'Swimming Pools': '/swimming-pools',
 		'Get a Quote': '/#open-modal-contact',
 		'Financing': '/financing',
-		'Special Features': '/special-features',
+		'Outdoor Living': '/outdoor-living',
 		'Swim Spas': '/swim-spas'
 	};
 	app.locals.nav = {
