@@ -1,4 +1,59 @@
-.testing {
-  color: orange;
+.photos-wrapper {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.photos-title-wrapper {
+  //background-color: $offWhite;
+}
+
+.photos-title {
+  position: relative;
+  margin: 30px 0;
+  color: #aaa;
+  font-size: 15px;
+  font-family: $sansSemibold;
+  text-align: center;
+  width: 100%;
+  text-transform: uppercase;
+
+  &:before {
+    right: .5em;
+    margin-left: -50%;
+  }
+
+  &:after {
+    left: .5em;
+    margin-right: -50%;
+  }
+
+  &:before, &:after {
+    position: relative;
+    background-color: #aaa;
+    content: '';
+    display: inline-block;
+    height: 1px;
+    vertical-align: middle;
+    width: 40.25%;
+  }
+}
+
+.photos-inline-wrapper {
+  img {
+    // this width line shouldn't be necessary?
+    width: 100%;
+  }
+}
+
+.photo-inline-wrapper {
+
+}
+
+.photo-row {
+  //margin-bottom: 25px;
+}
+
+.photo {
+  padding-bottom: 30px;
 }
 

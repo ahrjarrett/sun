@@ -2432,5 +2432,36 @@ span.post-author strong {
 @media (min-width: 1024px) {
   .container, body.single-post #z-header-bg {
     width: 994px; } }
-.testing {
-  color: orange; }
+.photos-wrapper {
+  padding-left: 15px;
+  padding-right: 15px; }
+
+.photos-title {
+  position: relative;
+  margin: 30px 0;
+  color: #aaa;
+  font-size: 15px;
+  font-family: "OpenSans-Semibold", sans-serif;
+  text-align: center;
+  width: 100%;
+  text-transform: uppercase; }
+  .photos-title:before {
+    right: .5em;
+    margin-left: -50%; }
+  .photos-title:after {
+    left: .5em;
+    margin-right: -50%; }
+  .photos-title:before, .photos-title:after {
+    position: relative;
+    background-color: #aaa;
+    content: '';
+    display: inline-block;
+    height: 1px;
+    vertical-align: middle;
+    width: 40.25%; }
+
+.photos-inline-wrapper img {
+  width: 100%; }
+
+.photo {
+  padding-bottom: 30px; }

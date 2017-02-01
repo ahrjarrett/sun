@@ -58,6 +58,7 @@ module.exports = function (app) {
 		res.render('photos', {
 			title: data.title,
 			url: data.url,
+      photos: data.photos,
 			cta: data.cta,
 			info: data.info
 		})
