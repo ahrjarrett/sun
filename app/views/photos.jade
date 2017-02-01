@@ -1,0 +1,9 @@
+include ./includes/layout
+include ./mixins/mixins
+
+body
+	block content
+		+fullnav(url)
+		include ./includes/cta
+		+infoblock(info, 'purp')
+		+footerbg('black')
