@@ -2432,3 +2432,5 @@ span.post-author strong {
 @media (min-width: 1024px) {
   .container, body.single-post #z-header-bg {
     width: 994px; } }
+.testing {
+  color: orange; }

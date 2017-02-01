@@ -1,18 +1,19 @@
-module.exports = function LandingData(opts) {
+module.exports = function PhotosData(opts) {
+  'use strict'
 
-  this.title = 'Outdoor Living';
-	this.url = 'outdoor-living';
+  this.title = 'Photos of Our Work'
+	this.url = 'photos'
 
   this.cta = {
-    bg: 'cta01.jpg',
-    header: 'Outdoor Living',
-    subheader: 'Your Lifestyle is Our Profession',
+    bg: 'slide07.jpg',
+    header: 'Photos',
+    subheader: 'Your Dream Pool is Our Business',
     links: {
       'More Info': '/',
       'FAQs': '/faq',
       'Special Offers': '/#open-modal'
     }
-  };
+  }
 
 	this.info = {
 		header: 'What We Do:',
@@ -52,7 +53,7 @@ module.exports = function LandingData(opts) {
 					caption: 'Pools that we have designed and built for our clients.'
 			}
 		]
-	};
+	}
 
-};
+}
 

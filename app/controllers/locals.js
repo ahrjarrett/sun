@@ -1,14 +1,14 @@
 module.exports = function (app) {
 
-	app.locals.company = 'Sun Ray Pools';
-	app.locals.phone = 9723330714;
-	app.locals.rootUrl = 'https://www.sunraypoolstx.com';
+	app.locals.company = 'Sun Ray Pools'
+	app.locals.phone = 9723330714
+	app.locals.rootUrl = 'https://www.sunraypoolstx.com'
 	app.locals.social = {
     'tel:+19723330714': 'phone',
 		'https://www.facebook.com/SunRayPoolsTX/': 'facebook-square',
 		'https://twitter.com/sunraypoolstx': 'twitter-square',
 		'http://www.houzz.com/pro/sunraypools/': 'houzz'
-	};
+	}
 	app.locals.blog = {
 		features: [
 			{
@@ -46,7 +46,7 @@ module.exports = function (app) {
 				link: 'story4link'
 			}
 		]
-	};
+	}
 
 	app.locals.footerUl = {
 		'Home': '/',
@@ -56,13 +56,14 @@ module.exports = function (app) {
 		'Financing': '/financing',
 		'Outdoor Living': '/outdoor-living',
 		'Swim Spas': '/swim-spas'
-	};
+	}
 	app.locals.nav = {
 		'Welcome': '',
 		'About': 'about-us',
 		'Services': 'outdoor-living',
-		'Portfolio': 'swimming-pools'
-	};
+		//'Portfolio': 'swimming-pools',
+    'Pictures': 'photos'
+	}
 
 	app.locals.subnav = {
 		'Outdoor Living': 'outdoor-living',
@@ -70,12 +71,12 @@ module.exports = function (app) {
 		'Special Features': 'special-features',
 		'Financing': 'financing',
 		'Swimming Pools': 'swimming-pools'
-	};
+	}
 
 	app.locals.partners = [
 		'apsp', 'bbb', 'pentair', 'wetedge'
-	];
+	]
 
-	app.locals.items = {'Link 1':'link-1','Link 2':'link-2','Link 3':'link-3','Link 4':'link-4'};
+	app.locals.items = {'Link 1':'link-1','Link 2':'link-2','Link 3':'link-3','Link 4':'link-4'}
 
-};
+}
