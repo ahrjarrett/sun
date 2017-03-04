@@ -42,5 +42,5 @@ mixin fullnav(currentPath)
 					ul#secondary-ul.secondary-nav
 						each path, name in subnav
 							li.sub-nav-item(class=path == pageUrl ? 'active-link' : '')
-								a(href='/#{path}')= name
+								a(href='#{path}')= name
 

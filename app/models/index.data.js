@@ -4,7 +4,7 @@ module.exports = function IndexData(opts) {
 	this.url = '#';
 
 	this.buttons = [
-		'Pools', 'Spas', 'Firepits', 'Patio'
+		'Pools', 'Spas', 'Firepits', 'Decks'
 	];
 
 	this.home = {

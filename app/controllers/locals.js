@@ -50,12 +50,13 @@ module.exports = function (app) {
 
 	app.locals.footerUl = {
 		'Home': '/',
-		// 'BBB': 'http://www.bbb.org/dallas/business-reviews/swimming-pool-contractors-dealers-design/sun-ray-pools-and-spas-in-rowlett-tx-90005855',
+    'About': '/about',
 		'Swimming Pools': '/swimming-pools',
-		'Get a Quote': '/#open-modal-contact',
+		'Get a Quote': '#open-modal-contact',
 		'Financing': '/financing',
 		'Outdoor Living': '/outdoor-living',
-		'Swim Spas': '/swim-spas'
+    'Gallery': '/photos'
+		//'Swim Spas': '/swim-spas'
 	}
 	app.locals.nav = {
 		'Welcome': '',
@@ -66,11 +67,12 @@ module.exports = function (app) {
 	}
 
 	app.locals.subnav = {
+		'Swimming Pools': 'swimming-pools',
 		'Outdoor Living': 'outdoor-living',
 		// 'About Us': 'about-us',
-		'Special Features': 'special-features',
+		//'Special Features': 'special-features',
 		'Financing': 'financing',
-		'Swimming Pools': 'swimming-pools'
+    'Get a Quote': '#open-modal-contact'
 	}
 
 	app.locals.partners = [
