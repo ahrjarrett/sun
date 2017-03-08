@@ -341,6 +341,7 @@
 .nav-weather-wrapper {
 	display: flex;
 	align-items: center;
+  margin-right: 2rem;
 
 	canvas {
 		margin: 0;
@@ -348,6 +349,8 @@
 	}
   span.call-now {
     min-width: 160px;
+    margin-right: 1rem;
+    a { color: #0074e4; }
   }
 	span {
 		max-height:50px;
@@ -356,7 +359,6 @@
 		font-size: 1.6em;
 		line-height: 1.6;
 		margin-left: .4rem;
-		margin-right: 2rem;
 		a:hover {
 			color:$mainBright;
 		}

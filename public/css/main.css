@@ -749,20 +749,23 @@ span.carousel-btn {
   display: flex;
   -webkit-box-align: center;
       -ms-flex-align: center;
-          align-items: center; }
+          align-items: center;
+  margin-right: 2rem; }
   .nav-weather-wrapper canvas {
     margin: 0;
     margin-left: .5rem; }
   .nav-weather-wrapper span.call-now {
-    min-width: 160px; }
+    min-width: 160px;
+    margin-right: 1rem; }
+    .nav-weather-wrapper span.call-now a {
+      color: #0074e4; }
   .nav-weather-wrapper span {
     max-height: 50px;
     color: #0074e4;
     font-family: "Sentinel-Semibold", serif;
     font-size: 1.6em;
     line-height: 1.6;
-    margin-left: .4rem;
-    margin-right: 2rem; }
+    margin-left: .4rem; }
     .nav-weather-wrapper span a:hover {
       color: #55a4ff; }
   .nav-weather-wrapper span.weather-temperature {
@@ -2462,6 +2465,12 @@ span.post-author strong {
 
 .photos-inline-wrapper img {
   width: 100%; }
+
+.photo-row {
+  position: relative; }
+
+.photo-inline-wrapper {
+  position: relative; }
 
 .photo {
   padding-bottom: 30px; }

@@ -45,12 +45,21 @@
   }
 }
 
-.photo-inline-wrapper {
-
+.photo-row {
+  position: relative;
 }
 
-.photo-row {
-  //margin-bottom: 25px;
+.photo-inline-wrapper {
+  position: relative;
+  //width: 100%;
+}
+
+.photo-format {
+  //position: absolute;
+  //background: rgba(0,0,0,.5);
+  //display: flex;
+  //right: 0;
+  //top: 0;
 }
 
 .photo {

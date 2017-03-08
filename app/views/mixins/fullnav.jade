@@ -1,46 +1,48 @@
 mixin fullnav(currentPath)
-	- var pageUrl= currentPath
+  - var pageUrl= currentPath
 
-	#nav.nav.sticky
-		#nav-top.nav-flex(role='navigation')
-			.nav-logo-wrapper
-				#logo.nav-logo-top
-					a.logo(href=rootUrl, style='margin-bottom:-50px')
-						img(src='/images/sun-ray-pools-logo.png')
-			.nav-ghost-wrapper
-			.nav-map-wrapper.sm-hide
+  #nav.nav.sticky
+    #nav-top.nav-flex(role='navigation')
+      .nav-logo-wrapper
+        #logo.nav-logo-top
+          a.logo(href=rootUrl, style='margin-bottom:-50px')
+            img(src='/images/sun-ray-pools-logo.png')
+      .nav-ghost-wrapper
+      .nav-map-wrapper.sm-hide
 
-				ul.nav-map-ul
-					each path, value in nav
-						li.nav-map-li
-							a.smoothScroll(href='/#{path}')=value
-			//- .nav-social-wrapper.sm-hide
-			//- 	.nav-social-top
-			//- 		each val, path in social
-			//- 			a(href=path target='_blank')
-			//- 				i(class="fa fa-#{val}")
+        ul.nav-map-ul
+          each path, value in nav
+            li.nav-map-li
+              a.smoothScroll(href='/#{path}')=value
+      //- .nav-social-wrapper.sm-hide
+      //- 	.nav-social-top
+      //- 		each val, path in social
+      //- 			a(href=path target='_blank')
+      //- 				i(class="fa fa-#{val}")
 
-			.nav-sm-only
-				a
-					button.mobile-menu(type='button')
-						span.hidden Menu
-			.nav-weather-wrapper.sm-hide
-				//- canvas#partly-cloudy-day(width='36', height='36')
-				//- span 99°
-				span.call-now
-					a(href='tel:9723330714') (972) 333-0714
-		.clearfix
-		#nav-mobile.nav-sm-only.collapse-it
-			ul.nav-mobile-ul
-				each val, index in nav
-					a(href='/#{val}')
-						li.nav-mobile-li #{index}
+      .nav-sm-only
+        a
+          button.mobile-menu(type='button')
+            span.hidden Menu
+      //-.nav-weather-wrapper.sm-hide
+      .nav-weather-wrapper#weather-wrapper.sm-hide
+        span.call-now
+          a(href='tel:9723330714') (972) 333-0714
+        canvas#weather-icon(width='36', height='36')
+        span#temperature.weather-temperature
 
-		#sub-nav.nav-sub-wrapper.sm-hide
-			.nav-sub
-				#nav-test.secondary-nav-wrapper
-					ul#secondary-ul.secondary-nav
-						each path, name in subnav
-							li.sub-nav-item(class=path == pageUrl ? 'active-link' : '')
-								a(href='#{path}')= name
+    .clearfix
+    #nav-mobile.nav-sm-only.collapse-it
+      ul.nav-mobile-ul
+        each val, index in nav
+          a(href='/#{val}')
+            li.nav-mobile-li #{index}
+
+    #sub-nav.nav-sub-wrapper.sm-hide
+      .nav-sub
+        #nav-test.secondary-nav-wrapper
+          ul#secondary-ul.secondary-nav
+            each path, name in subnav
+              li.sub-nav-item(class=path == pageUrl ? 'active-link' : '')
+                a(href='#{path}')= name
 

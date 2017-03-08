@@ -1,4 +1,3 @@
-- console.log('hi thre')
 .page-width
   .photos-wrapper
     .photos-title-wrapper
@@ -7,4 +6,5 @@
       .photo-row.row
         each img, type in photos
           .photo-inline-wrapper.col-md-6.col-sm-12
-            img.photo.img-responsive(class=type src='images/#{img}')
+            .photo-format
+              img.photo.img-responsive(class=type src='images/#{img}')
