@@ -4,6 +4,7 @@ var express       = require('express'),
 var BlogData              = require('../models/blog_index.data.js'),
 		FinanceData           = require('../models/finance.data.js'),
 		IndexData             = require('../models/index.data.js'),
+		GalleryData           = require('../models/gallery.data.js'),
 		LandingData           = require('../models/landing.data.js'),
 		PhotosData            = require('../models/photos.data.js'),
 		PoolsData             = require('../models/pools.data.js'),
@@ -55,12 +56,14 @@ module.exports = function (app) {
   })
 
   router.get('/photos', (req, res, next) => {
-    const data = new PhotosData()
+    const data = new GalleryData()
 		res.render('photos', {
 			title: data.title,
 			url: data.url,
+      images: data.images,
       photos: data.photos,
 			cta: data.cta,
+      features: data.features,
 			info: data.info
 		})
   })
@@ -93,14 +96,15 @@ module.exports = function (app) {
 		})
 	})
 
-	router.get('/swimming-pools', function (req, res, next) {
-		var data = new PoolsData()
-		res.render('pools', {
-			title: data.title,
-			url: data.url,
-			features: data.features
-		})
-	})
+  //// BROKEN NOW: app/views/includes/menu.jade now has another row that accounts for rowone
+	//router.get('/swimming-pools', function (req, res, next) {
+	//	var data = new PoolsData()
+	//	res.render('pools', {
+	//		title: data.title,
+	//		url: data.url,
+	//		features: data.features
+	//	})
+	//})
 
 	router.get('/swim-spas', function (req, res, next) {
 		var data = new SpasData()

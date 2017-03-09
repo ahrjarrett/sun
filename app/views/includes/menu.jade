@@ -1,9 +1,22 @@
 #menuDiv
-	section#featured-posts
-		each val in features.rowtwo
-			.featured-post(style='background-image: url(images/#{val[0]}')
-				a(href='#{val[3]}', class='' rel='group')
-					h2.meta-type.story-type= val[1] 
-					.post-meta
-						span= val[4]
+  section#featured-posts
+    each val, index in features.rowone
+      .featured-post(style='background-image: url(images/#{val[0]}')
+        a(href='images/#{val[0]}' class='lightbox' rel='gallery#{index}')
+          h2.meta-type.story-type= val[1]
+          .post-meta
+            span= val[4]
+      .hidden.hidden-gallery
+        for image in images.rowone[index]
+          a.lightbox(rel='gallery#{index}' href='images/#{image}')
+  section#featured-posts
+    each val, index in features.rowtwo
+      .featured-post(style='background-image: url(images/#{val[0]}')
+        a(href='images/#{val[0]}' class='lightbox' rel='gallery#{index+3}')
+          h2.meta-type.story-type= val[1]
+          .post-meta
+            span= val[4]
+      .hidden.hidden-gallery
+        for image in images.rowtwo[index]
+          a.lightbox(rel='gallery#{index+3}' href='images/#{image}')
 .clearfix
