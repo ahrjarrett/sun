@@ -1173,7 +1173,7 @@ li.active .headshot img {
   left: 0;
   right: 0;
   content: '';
-  background-color: rgba(85, 164, 255, 0.75);
+  background-color: rgba(0, 0, 0, 0.5);
   -webkit-transition: background-color,1s;
   transition: background-color,1s; }
 
@@ -1205,7 +1205,7 @@ li.active .headshot img {
   font-family: "OpenSans-Light", sans-serif; }
 
 .meta-type.story-type:before {
-  content: "\f0a9"; }
+  content: "\f03e"; }
 
 .meta-type.gallery-type:before {
   content: ""; }
@@ -2437,7 +2437,8 @@ span.post-author strong {
     width: 994px; } }
 .photos-wrapper {
   padding-left: 15px;
-  padding-right: 15px; }
+  padding-right: 15px;
+  padding-top: 50px; }
 
 .photos-title {
   position: relative;

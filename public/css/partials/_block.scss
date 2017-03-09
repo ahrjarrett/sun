@@ -855,7 +855,7 @@ li.active  {
 	left: 0;
 	right: 0;
 	content: '';
-	background-color: $mainTrans;
+	background-color: rgba(0,0,0,.5);
 	transition: background-color,1s;
 }
 
@@ -890,7 +890,8 @@ li.active  {
 }
 
 .meta-type.story-type:before {
-	content: "\f0a9";
+	content: "\f03e";
+
 }
 .meta-type.gallery-type:before { content: "\f03e" }
 
