@@ -1,20 +1,21 @@
 var express       = require('express'),
 		router        = express.Router()
 
-var BlogData      = require('../models/blog_index.data.js'),
-		FinanceData   = require('../models/finance.data.js'),
-		IndexData     = require('../models/index.data.js'),
-		LandingData   = require('../models/landing.data.js'),
-		PhotosData    = require('../models/photos.data.js'),
-		PoolsData     = require('../models/pools.data.js'),
-		PortfolioData = require('../models/portfolio.data.js'),
-		PostData      = require('../models/_firstpost.data.js'),
-		ProductData   = require('../models/product.data.js'),
-    ReviewsData   = require('../models/reviews.data.js'),
-		ServicesData  = require('../models/services.data.js'),
-		SpasData      = require('../models/spas.data.js'),
-		SpecialData   = require('../models/special.data.js'),
-		ThanksData    = require('../models/thanks.data.js')
+var BlogData              = require('../models/blog_index.data.js'),
+		FinanceData           = require('../models/finance.data.js'),
+		IndexData             = require('../models/index.data.js'),
+		LandingData           = require('../models/landing.data.js'),
+		PhotosData            = require('../models/photos.data.js'),
+		PoolsData             = require('../models/pools.data.js'),
+		PortfolioData         = require('../models/portfolio.data.js'),
+		PostData              = require('../models/_firstpost.data.js'),
+		ProductData           = require('../models/product.data.js'),
+    ReviewsData           = require('../models/reviews.data.js'),
+		ServicesData          = require('../models/services.data.js'),
+		SpasData              = require('../models/spas.data.js'),
+		SpecialData           = require('../models/special.data.js'),
+		ThanksData            = require('../models/thanks.data.js')
+		ThanksNewsletterData  = require('../models/thanksNewsletter.data.js')
 
 var ForecastIo = require('forecastio')
 var weather = new ForecastIo('b4273f2056175820d34aa2636bac6ff5')
@@ -132,6 +133,14 @@ module.exports = function (app) {
 	router.get('/thank-you', function (req, res, next) {
 		var data = new ThanksData()
 		res.render('thanks', {
+			title: data.title,
+			url: data.url
+		})
+	})
+
+	router.get('/thank-you-newsletter', function (req, res, next) {
+		var data = new ThanksNewsletterData()
+		res.render('thanksNewsletter', {
 			title: data.title,
 			url: data.url
 		})
