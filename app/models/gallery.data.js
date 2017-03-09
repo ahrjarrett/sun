@@ -32,25 +32,25 @@ module.exports = function PoolsData(opts) {
 	this.features = {
 		rowone: {
 			0:[
-				'slide07.jpg', 'Swimming Pools', 'taxi', 'outdoor-living', 'Learn more about the outdoor lifestyle'
+				'slide07.jpg', 'Swimming Pools', 'taxi', 'outdoor-living', 'See photos of swimming pools we’ve built!'
 			],
 			1:[
-				'slide08.jpg', 'Swim Spas', 'subway', 'financing', 'Get info about our new mortgage and financing packages'
+				'slide08.jpg', 'Swim Spas', 'subway', 'financing', 'See photos of swim spas we’ve built!'
 			],
 			2:[
-				'slide09.jpg', 'Decks', 'bicycle', 'swimming-pools', 'Pools that we have designed and built for our clients'
+				'slide09.jpg', 'Decks', 'bicycle', 'swimming-pools', 'See photos of decks we’ve built!'
 			]
 		},
 
 		rowtwo: {
 			0:[
-				'slide25.jpg', 'Waterfalls', 'taxi', 'outdoor-living', 'Learn more about the outdoor lifestyle'
+				'slide25.jpg', 'Waterfalls', 'taxi', 'outdoor-living', 'See photos of waterfalls we’ve built!'
 			],
 			1:[
-				'slide11.jpg', 'Kitchens', 'subway', 'financing', 'Get info about our new mortgage and financing packages'
+				'slide11.jpg', 'Outdoor Kitchens', 'subway', 'financing', 'See photos of kitchens we’ve built!'
 			],
 			2:[
-				'slide36.jpg', 'Patios', 'bicycle', 'swimming-pools', 'Pools that we have designed and built for our clients'
+				'slide36.jpg', 'Patios', 'bicycle', 'swimming-pools', 'See photos of patios we’ve built!'
 			]
 		}
 

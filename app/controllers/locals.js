@@ -51,7 +51,7 @@ module.exports = function (app) {
 	app.locals.footerUl = {
 		'Home': '/',
     'About': '/about',
-		'Swimming Pools': '/swimming-pools',
+		//'Swimming Pools': '/swimming-pools',
 		'Get a Quote': '#open-modal-contact',
 		'Financing': '/financing',
 		'Outdoor Living': '/outdoor-living',
@@ -61,13 +61,13 @@ module.exports = function (app) {
 	app.locals.nav = {
 		'Welcome': '',
 		'About': 'about-us',
-		'Services': 'outdoor-living',
+		//'Services': 'outdoor-living',
 		//'Portfolio': 'swimming-pools',
-    'Pictures': 'photos'
+    'Gallery': 'photos'
 	}
 
 	app.locals.subnav = {
-		'Swimming Pools': 'swimming-pools',
+		//'Swimming Pools': 'swimming-pools',
 		'Outdoor Living': 'outdoor-living',
 		// 'About Us': 'about-us',
 		//'Special Features': 'special-features',
