@@ -60,7 +60,7 @@ module.exports = function (app) {
 	}
 	app.locals.nav = {
 		'Welcome': '',
-		'About': 'about-us',
+		'About Us': 'about-us',
 		//'Services': 'outdoor-living',
 		//'Portfolio': 'swimming-pools',
     'Gallery': 'photos'
