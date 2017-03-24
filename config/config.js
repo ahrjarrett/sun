@@ -1,6 +1,6 @@
 var path = require('path'),
 	rootPath = path.normalize(__dirname + '/..'),
-	env = process.env.NODE_ENV || 'development';
+	env = process.env.NODE_ENV || 'development'
 
 var config = {
 	development: {
@@ -26,6 +26,6 @@ var config = {
 		},
 		port: process.env.PORT || 3000,
 	}
-};
+}
 
-module.exports = config[env];
+module.exports = config[env]

@@ -1,0 +1,347 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node', '/usr/local/bin/npm', 'shrinkwrap' ]
+2 info using npm@3.10.8
+3 info using node@v6.9.1
+4 info lifecycle srp_node_6.2.1@0.2.1~preshrinkwrap: srp_node_6.2.1@0.2.1
+5 silly lifecycle srp_node_6.2.1@0.2.1~preshrinkwrap: no script for preshrinkwrap, continuing
+6 warn shrinkwrap Excluding devDependency: /archy
+7 warn shrinkwrap Excluding devDependency: /array-differ
+8 warn shrinkwrap Excluding devDependency: /array-filter
+9 warn shrinkwrap Excluding devDependency: /array-find-index
+10 warn shrinkwrap Excluding devDependency: /array-map
+11 warn shrinkwrap Excluding devDependency: /array-reduce
+12 warn shrinkwrap Excluding devDependency: /asn1.js
+13 warn shrinkwrap Excluding devDependency: /assert
+14 warn shrinkwrap Excluding devDependency: /astw
+15 warn shrinkwrap Excluding devDependency: /autoprefixer
+16 warn shrinkwrap Excluding devDependency: /base64-js
+17 warn shrinkwrap Excluding devDependency: /beeper
+18 warn shrinkwrap Excluding devDependency: /bn.js
+19 warn shrinkwrap Excluding devDependency: /brorand
+20 warn shrinkwrap Excluding devDependency: /browser-pack
+21 warn shrinkwrap Excluding devDependency: /browserify
+22 warn shrinkwrap Excluding devDependency: /browserify-aes
+23 warn shrinkwrap Excluding devDependency: /browserify-cipher
+24 warn shrinkwrap Excluding devDependency: /browserify-des
+25 warn shrinkwrap Excluding devDependency: /browserify-rsa
+26 warn shrinkwrap Excluding devDependency: /browserify-sign
+27 warn shrinkwrap Excluding devDependency: /browserify-zlib
+28 warn shrinkwrap Excluding devDependency: /browserslist
+29 warn shrinkwrap Excluding devDependency: /buffer
+30 warn shrinkwrap Excluding devDependency: /buffer-xor
+31 warn shrinkwrap Excluding devDependency: /builtin-modules
+32 warn shrinkwrap Excluding devDependency: /builtin-status-codes
+33 warn shrinkwrap Excluding devDependency: /cached-path-relative
+34 warn shrinkwrap Excluding devDependency: /camelcase-keys
+35 warn shrinkwrap Excluding devDependency: /caniuse-db
+36 warn shrinkwrap Excluding devDependency: /cipher-base
+37 warn shrinkwrap Excluding devDependency: /clone
+38 warn shrinkwrap Excluding devDependency: /clone-buffer
+39 warn shrinkwrap Excluding devDependency: /clone-stats
+40 warn shrinkwrap Excluding devDependency: /cloneable-readable
+41 warn shrinkwrap Excluding devDependency: /combine-source-map
+42 warn shrinkwrap Excluding devDependency: /concat-with-sourcemaps
+43 warn shrinkwrap Excluding devDependency: /console-browserify
+44 warn shrinkwrap Excluding devDependency: /constants-browserify
+45 warn shrinkwrap Excluding devDependency: /convert-source-map
+46 warn shrinkwrap Excluding devDependency: /create-ecdh
+47 warn shrinkwrap Excluding devDependency: /create-hash
+48 warn shrinkwrap Excluding devDependency: /create-hmac
+49 warn shrinkwrap Excluding devDependency: /cross-spawn
+50 warn shrinkwrap Excluding devDependency: /crypto-browserify
+51 warn shrinkwrap Excluding devDependency: /currently-unhandled
+52 warn shrinkwrap Excluding devDependency: /dargs
+53 warn shrinkwrap Excluding devDependency: /date-now
+54 warn shrinkwrap Excluding devDependency: /dateformat
+55 warn shrinkwrap Excluding devDependency: /defaults
+56 warn shrinkwrap Excluding devDependency: /del
+57 warn shrinkwrap Excluding devDependency: /deprecated
+58 warn shrinkwrap Excluding devDependency: /deps-sort
+59 warn shrinkwrap Excluding devDependency: /des.js
+60 warn shrinkwrap Excluding devDependency: /diffie-hellman
+61 warn shrinkwrap Excluding devDependency: /dom-serializer
+62 warn shrinkwrap Excluding devDependency: /domain-browser
+63 warn shrinkwrap Excluding devDependency: /domelementtype
+64 warn shrinkwrap Excluding devDependency: /domhandler
+65 warn shrinkwrap Excluding devDependency: /domutils
+66 warn shrinkwrap Excluding devDependency: /duplexer2
+67 warn shrinkwrap Excluding devDependency: /each-async
+68 warn shrinkwrap Excluding devDependency: /elliptic
+69 warn shrinkwrap Excluding devDependency: /end-of-stream
+70 warn shrinkwrap Excluding devDependency: /entities
+71 warn shrinkwrap Excluding devDependency: /error-ex
+72 warn shrinkwrap Excluding devDependency: /events
+73 warn shrinkwrap Excluding devDependency: /evp_bytestokey
+74 warn shrinkwrap Excluding devDependency: /extend
+75 warn shrinkwrap Excluding devDependency: /fancy-log
+76 warn shrinkwrap Excluding devDependency: /faye-websocket
+77 warn shrinkwrap Excluding devDependency: /find-index
+78 warn shrinkwrap Excluding devDependency: /find-up
+79 warn shrinkwrap Excluding devDependency: /findup-sync
+80 warn shrinkwrap Excluding devDependency: /first-chunk-stream
+81 warn shrinkwrap Excluding devDependency: /flagged-respawn
+82 warn shrinkwrap Excluding devDependency: /fs.realpath
+83 warn shrinkwrap Excluding devDependency: /function-bind
+84 warn shrinkwrap Excluding devDependency: /gaze
+85 warn shrinkwrap Excluding devDependency: /get-stdin
+86 warn shrinkwrap Excluding devDependency: /glob-stream
+87 warn shrinkwrap Excluding devDependency: /glob-watcher
+88 warn shrinkwrap Excluding devDependency: /glob2base
+89 warn shrinkwrap Excluding devDependency: /globule
+90 warn shrinkwrap Excluding devDependency: /glogg
+91 warn shrinkwrap Excluding devDependency: /gulp
+92 warn shrinkwrap Excluding devDependency: /gulp-autoprefixer
+93 warn shrinkwrap Excluding devDependency: /gulp-concat
+94 warn shrinkwrap Excluding devDependency: /gulp-jshint
+95 warn shrinkwrap Excluding devDependency: /gulp-livereload
+96 warn shrinkwrap Excluding devDependency: /gulp-nodemon
+97 warn shrinkwrap Excluding devDependency: /gulp-plumber
+98 warn shrinkwrap Excluding devDependency: /gulp-ruby-sass
+99 warn shrinkwrap Excluding devDependency: /gulp-util
+100 warn shrinkwrap Excluding devDependency: /gulplog
+101 warn shrinkwrap Excluding devDependency: /has
+102 warn shrinkwrap Excluding devDependency: /has-flag
+103 warn shrinkwrap Excluding devDependency: /has-gulplog
+104 warn shrinkwrap Excluding devDependency: /hash.js
+105 warn shrinkwrap Excluding devDependency: /hosted-git-info
+106 warn shrinkwrap Excluding devDependency: /htmlescape
+107 warn shrinkwrap Excluding devDependency: /htmlparser2
+108 warn shrinkwrap Excluding devDependency: /https-browserify
+109 warn shrinkwrap Excluding devDependency: /ieee754
+110 warn shrinkwrap Excluding devDependency: /indent-string
+111 warn shrinkwrap Excluding devDependency: /indexof
+112 warn shrinkwrap Excluding devDependency: /inline-source-map
+113 warn shrinkwrap Excluding devDependency: /insert-module-globals
+114 warn shrinkwrap Excluding devDependency: /interpret
+115 warn shrinkwrap Excluding devDependency: /irregular-plurals
+116 warn shrinkwrap Excluding devDependency: /is-arrayish
+117 warn shrinkwrap Excluding devDependency: /is-builtin-module
+118 warn shrinkwrap Excluding devDependency: /is-path-cwd
+119 warn shrinkwrap Excluding devDependency: /is-path-in-cwd
+120 warn shrinkwrap Excluding devDependency: /is-path-inside
+121 warn shrinkwrap Excluding devDependency: /is-utf8
+122 warn shrinkwrap Excluding devDependency: /js-base64
+123 warn shrinkwrap Excluding devDependency: /jshint
+124 warn shrinkwrap Excluding devDependency: /jshint-stylish
+125 warn shrinkwrap Excluding devDependency: /labeled-stream-splicer
+126 warn shrinkwrap Excluding devDependency: /lexical-scope
+127 warn shrinkwrap Excluding devDependency: /liftoff
+128 warn shrinkwrap Excluding devDependency: /livereload-js
+129 warn shrinkwrap Excluding devDependency: /load-json-file
+130 warn shrinkwrap Excluding devDependency: /lodash
+131 warn shrinkwrap Excluding devDependency: /lodash._basetostring
+132 warn shrinkwrap Excluding devDependency: /lodash._basevalues
+133 warn shrinkwrap Excluding devDependency: /lodash._reescape
+134 warn shrinkwrap Excluding devDependency: /lodash._reevaluate
+135 warn shrinkwrap Excluding devDependency: /lodash._reinterpolate
+136 warn shrinkwrap Excluding devDependency: /lodash._root
+137 warn shrinkwrap Excluding devDependency: /lodash.escape
+138 warn shrinkwrap Excluding devDependency: /lodash.isobject
+139 warn shrinkwrap Excluding devDependency: /lodash.memoize
+140 warn shrinkwrap Excluding devDependency: /lodash.merge
+141 warn shrinkwrap Excluding devDependency: /lodash.template
+142 warn shrinkwrap Excluding devDependency: /lodash.templatesettings
+143 warn shrinkwrap Excluding devDependency: /log-symbols
+144 warn shrinkwrap Excluding devDependency: /loud-rejection
+145 warn shrinkwrap Excluding devDependency: /map-obj
+146 warn shrinkwrap Excluding devDependency: /md5-hex
+147 warn shrinkwrap Excluding devDependency: /md5-o-matic
+148 warn shrinkwrap Excluding devDependency: /meow
+149 warn shrinkwrap Excluding devDependency: /miller-rabin
+150 warn shrinkwrap Excluding devDependency: /mini-lr
+151 warn shrinkwrap Excluding devDependency: /minimalistic-assert
+152 warn shrinkwrap Excluding devDependency: /multipipe
+153 warn shrinkwrap Excluding devDependency: /normalize-package-data
+154 warn shrinkwrap Excluding devDependency: /normalize-range
+155 warn shrinkwrap Excluding devDependency: /num2fraction
+156 warn shrinkwrap Excluding devDependency: /onetime
+157 warn shrinkwrap Excluding devDependency: /orchestrator
+158 warn shrinkwrap Excluding devDependency: /ordered-read-streams
+159 warn shrinkwrap Excluding devDependency: /os-browserify
+160 warn shrinkwrap Excluding devDependency: /pako
+161 warn shrinkwrap Excluding devDependency: /parse-asn1
+162 warn shrinkwrap Excluding devDependency: /parse-json
+163 warn shrinkwrap Excluding devDependency: /path-browserify
+164 warn shrinkwrap Excluding devDependency: /path-exists
+165 warn shrinkwrap Excluding devDependency: /path-is-inside
+166 warn shrinkwrap Excluding devDependency: /path-type
+167 warn shrinkwrap Excluding devDependency: /pbkdf2
+168 warn shrinkwrap Excluding devDependency: /plur
+169 warn shrinkwrap Excluding devDependency: /postcss
+170 warn shrinkwrap Excluding devDependency: /postcss-value-parser
+171 warn shrinkwrap Excluding devDependency: /pretty-hrtime
+172 warn shrinkwrap Excluding devDependency: /process
+173 warn shrinkwrap Excluding devDependency: /public-encrypt
+174 warn shrinkwrap Excluding devDependency: /querystring
+175 warn shrinkwrap Excluding devDependency: /querystring-es3
+176 warn shrinkwrap Excluding devDependency: /randombytes
+177 warn shrinkwrap Excluding devDependency: /read-only-stream
+178 warn shrinkwrap Excluding devDependency: /read-pkg
+179 warn shrinkwrap Excluding devDependency: /read-pkg-up
+180 warn shrinkwrap Excluding devDependency: /readable-stream
+181 warn shrinkwrap Excluding devDependency: /rechoir
+182 warn shrinkwrap Excluding devDependency: /redent
+183 warn shrinkwrap Excluding devDependency: /remove-trailing-separator
+184 warn shrinkwrap Excluding devDependency: /repeating
+185 warn shrinkwrap Excluding devDependency: /replace-ext
+186 warn shrinkwrap Excluding devDependency: /ripemd160
+187 warn shrinkwrap Excluding devDependency: /semver
+188 warn shrinkwrap Excluding devDependency: /sequencify
+189 warn shrinkwrap Excluding devDependency: /set-immediate-shim
+190 warn shrinkwrap Excluding devDependency: /sha.js
+191 warn shrinkwrap Excluding devDependency: /shasum
+192 warn shrinkwrap Excluding devDependency: /shebang-command
+193 warn shrinkwrap Excluding devDependency: /shebang-regex
+194 warn shrinkwrap Excluding devDependency: /shell-quote
+195 warn shrinkwrap Excluding devDependency: /shelljs
+196 warn shrinkwrap Excluding devDependency: /signal-exit
+197 warn shrinkwrap Excluding devDependency: /sparkles
+198 warn shrinkwrap Excluding devDependency: /spdx-correct
+199 warn shrinkwrap Excluding devDependency: /spdx-exceptions
+200 warn shrinkwrap Excluding devDependency: /spdx-expression-parse
+201 warn shrinkwrap Excluding devDependency: /spdx-license-ids
+202 warn shrinkwrap Excluding devDependency: /stream-browserify
+203 warn shrinkwrap Excluding devDependency: /stream-consume
+204 warn shrinkwrap Excluding devDependency: /stream-http
+205 warn shrinkwrap Excluding devDependency: /stream-splicer
+206 warn shrinkwrap Excluding devDependency: /strip-bom
+207 warn shrinkwrap Excluding devDependency: /strip-indent
+208 warn shrinkwrap Excluding devDependency: /syntax-error
+209 warn shrinkwrap Excluding devDependency: /text-table
+210 warn shrinkwrap Excluding devDependency: /tildify
+211 warn shrinkwrap Excluding devDependency: /time-stamp
+212 warn shrinkwrap Excluding devDependency: /timers-browserify
+213 warn shrinkwrap Excluding devDependency: /to-arraybuffer
+214 warn shrinkwrap Excluding devDependency: /trim-newlines
+215 warn shrinkwrap Excluding devDependency: /tty-browserify
+216 warn shrinkwrap Excluding devDependency: /umd
+217 warn shrinkwrap Excluding devDependency: /unique-stream
+218 warn shrinkwrap Excluding devDependency: /url
+219 warn shrinkwrap Excluding devDependency: /user-home
+220 warn shrinkwrap Excluding devDependency: /util
+221 warn shrinkwrap Excluding devDependency: /v8flags
+222 warn shrinkwrap Excluding devDependency: /validate-npm-package-license
+223 warn shrinkwrap Excluding devDependency: /vinyl
+224 warn shrinkwrap Excluding devDependency: /vinyl-fs
+225 warn shrinkwrap Excluding devDependency: /vinyl-source-stream
+226 warn shrinkwrap Excluding devDependency: /vinyl-sourcemaps-apply
+227 warn shrinkwrap Excluding devDependency: /vm-browserify
+228 warn shrinkwrap Excluding devDependency: /websocket-driver
+229 warn shrinkwrap Excluding devDependency: /websocket-extensions
+230 info lifecycle srp_node_6.2.1@0.2.1~shrinkwrap: srp_node_6.2.1@0.2.1
+231 silly lifecycle srp_node_6.2.1@0.2.1~shrinkwrap: no script for shrinkwrap, continuing
+232 verbose stack Error: Problems were encountered
+232 verbose stack Please correct and try again.
+232 verbose stack extraneous: byline@4.2.1 /Users/aj/Desktop/stuff/_sites/sun/node_modules/byline
+232 verbose stack extraneous: cli@0.6.6 /Users/aj/Desktop/stuff/_sites/sun/node_modules/cli
+232 verbose stack extraneous: glob@3.2.11 /Users/aj/Desktop/stuff/_sites/sun/node_modules/cli/node_modules/glob
+232 verbose stack extraneous: minimatch@0.3.0 /Users/aj/Desktop/stuff/_sites/sun/node_modules/cli/node_modules/minimatch
+232 verbose stack extraneous: clor@2.0.2 /Users/aj/Desktop/stuff/_sites/sun/node_modules/clor
+232 verbose stack extraneous: co@4.6.0 /Users/aj/Desktop/stuff/_sites/sun/node_modules/co
+232 verbose stack extraneous: cross-spawn-async@2.2.4 /Users/aj/Desktop/stuff/_sites/sun/node_modules/cross-spawn-async
+232 verbose stack extraneous: lru-cache@4.0.1 /Users/aj/Desktop/stuff/_sites/sun/node_modules/cross-spawn-async/node_modules/lru-cache
+232 verbose stack extraneous: cycle@1.0.3 /Users/aj/Desktop/stuff/_sites/sun/node_modules/cycle
+232 verbose stack extraneous: deep-equal@1.0.1 /Users/aj/Desktop/stuff/_sites/sun/node_modules/deep-equal
+232 verbose stack extraneous: eyes@0.1.8 /Users/aj/Desktop/stuff/_sites/sun/node_modules/eyes
+232 verbose stack extraneous: fibers@1.0.13 /Users/aj/Desktop/stuff/_sites/sun/node_modules/fibers
+232 verbose stack extraneous: flatten@1.0.2 /Users/aj/Desktop/stuff/_sites/sun/node_modules/flatten
+232 verbose stack extraneous: globby@4.1.0 /Users/aj/Desktop/stuff/_sites/sun/node_modules/globby
+232 verbose stack extraneous: object-assign@4.1.0 /Users/aj/Desktop/stuff/_sites/sun/node_modules/globby/node_modules/object-assign
+232 verbose stack extraneous: i@0.3.5 /Users/aj/Desktop/stuff/_sites/sun/node_modules/i
+232 verbose stack extraneous: json-stable-stringify@1.0.1 /Users/aj/Desktop/stuff/_sites/sun/node_modules/json-stable-stringify
+232 verbose stack extraneous: merge-stream@0.1.8 /Users/aj/Desktop/stuff/_sites/sun/node_modules/merge-stream
+232 verbose stack extraneous: readable-stream@1.0.34 /Users/aj/Desktop/stuff/_sites/sun/node_modules/merge-stream/node_modules/readable-stream
+232 verbose stack extraneous: through2@0.6.5 /Users/aj/Desktop/stuff/_sites/sun/node_modules/merge-stream/node_modules/through2
+232 verbose stack extraneous: module-deps@4.0.7 /Users/aj/Desktop/stuff/_sites/sun/node_modules/module-deps
+232 verbose stack extraneous: duplexer2@0.1.4 /Users/aj/Desktop/stuff/_sites/sun/node_modules/module-deps/node_modules/duplexer2
+232 verbose stack extraneous: isarray@1.0.0 /Users/aj/Desktop/stuff/_sites/sun/node_modules/module-deps/node_modules/isarray
+232 verbose stack extraneous: readable-stream@2.1.4 /Users/aj/Desktop/stuff/_sites/sun/node_modules/module-deps/node_modules/readable-stream
+232 verbose stack extraneous: mute-stream@0.0.6 /Users/aj/Desktop/stuff/_sites/sun/node_modules/mute-stream
+232 verbose stack extraneous: ncp@0.4.2 /Users/aj/Desktop/stuff/_sites/sun/node_modules/ncp
+232 verbose stack extraneous: nodemon@1.9.2 /Users/aj/Desktop/stuff/_sites/sun/node_modules/nodemon
+232 verbose stack extraneous: pkginfo@0.4.0 /Users/aj/Desktop/stuff/_sites/sun/node_modules/pkginfo
+232 verbose stack extraneous: prettyjson@1.1.3 /Users/aj/Desktop/stuff/_sites/sun/node_modules/prettyjson
+232 verbose stack extraneous: minimist@1.2.0 /Users/aj/Desktop/stuff/_sites/sun/node_modules/prettyjson/node_modules/minimist
+232 verbose stack extraneous: prompt@0.2.14 /Users/aj/Desktop/stuff/_sites/sun/node_modules/prompt
+232 verbose stack extraneous: rcloader@0.1.2 /Users/aj/Desktop/stuff/_sites/sun/node_modules/rcloader
+232 verbose stack extraneous: lodash@2.4.2 /Users/aj/Desktop/stuff/_sites/sun/node_modules/rcloader/node_modules/lodash
+232 verbose stack extraneous: read@1.0.7 /Users/aj/Desktop/stuff/_sites/sun/node_modules/read
+232 verbose stack extraneous: revalidator@0.1.8 /Users/aj/Desktop/stuff/_sites/sun/node_modules/revalidator
+232 verbose stack extraneous: ssh2@0.4.15 /Users/aj/Desktop/stuff/_sites/sun/node_modules/ssh2
+232 verbose stack extraneous: readable-stream@1.0.34 /Users/aj/Desktop/stuff/_sites/sun/node_modules/ssh2/node_modules/readable-stream
+232 verbose stack extraneous: ssh2-streams@0.0.23 /Users/aj/Desktop/stuff/_sites/sun/node_modules/ssh2-streams
+232 verbose stack extraneous: readable-stream@1.0.34 /Users/aj/Desktop/stuff/_sites/sun/node_modules/ssh2-streams/node_modules/readable-stream
+232 verbose stack extraneous: stack-trace@0.0.9 /Users/aj/Desktop/stuff/_sites/sun/node_modules/stack-trace
+232 verbose stack extraneous: streamsearch@0.1.2 /Users/aj/Desktop/stuff/_sites/sun/node_modules/streamsearch
+232 verbose stack extraneous: through2-filter@2.0.0 /Users/aj/Desktop/stuff/_sites/sun/node_modules/through2-filter
+232 verbose stack extraneous: util-extend@1.0.3 /Users/aj/Desktop/stuff/_sites/sun/node_modules/util-extend
+232 verbose stack extraneous: utile@0.2.1 /Users/aj/Desktop/stuff/_sites/sun/node_modules/utile
+232 verbose stack extraneous: winston@0.8.3 /Users/aj/Desktop/stuff/_sites/sun/node_modules/winston
+232 verbose stack extraneous: colors@0.6.2 /Users/aj/Desktop/stuff/_sites/sun/node_modules/winston/node_modules/colors
+232 verbose stack extraneous: pkginfo@0.3.1 /Users/aj/Desktop/stuff/_sites/sun/node_modules/winston/node_modules/pkginfo
+232 verbose stack     at shrinkwrap_ (/usr/local/lib/node_modules/npm/lib/shrinkwrap.js:129:15)
+232 verbose stack     at Array.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/slide/lib/bind-actor.js:15:8)
+232 verbose stack     at LOOP (/usr/local/lib/node_modules/npm/node_modules/slide/lib/chain.js:15:14)
+232 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/slide/lib/chain.js:18:7
+232 verbose stack     at done (/usr/local/lib/node_modules/npm/lib/utils/lifecycle.js:132:5)
+232 verbose stack     at LOOP (/usr/local/lib/node_modules/npm/node_modules/slide/lib/chain.js:7:26)
+232 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/slide/lib/chain.js:18:7
+232 verbose stack     at /usr/local/lib/node_modules/npm/lib/utils/lifecycle.js:294:20
+232 verbose stack     at FSReqWrap.oncomplete (fs.js:123:15)
+233 verbose cwd /Users/aj/Desktop/stuff/_sites/sun
+234 error Darwin 15.6.0
+235 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "shrinkwrap"
+236 error node v6.9.1
+237 error npm  v3.10.8
+238 error Problems were encountered
+238 error Please correct and try again.
+238 error extraneous: byline@4.2.1 /Users/aj/Desktop/stuff/_sites/sun/node_modules/byline
+238 error extraneous: cli@0.6.6 /Users/aj/Desktop/stuff/_sites/sun/node_modules/cli
+238 error extraneous: glob@3.2.11 /Users/aj/Desktop/stuff/_sites/sun/node_modules/cli/node_modules/glob
+238 error extraneous: minimatch@0.3.0 /Users/aj/Desktop/stuff/_sites/sun/node_modules/cli/node_modules/minimatch
+238 error extraneous: clor@2.0.2 /Users/aj/Desktop/stuff/_sites/sun/node_modules/clor
+238 error extraneous: co@4.6.0 /Users/aj/Desktop/stuff/_sites/sun/node_modules/co
+238 error extraneous: cross-spawn-async@2.2.4 /Users/aj/Desktop/stuff/_sites/sun/node_modules/cross-spawn-async
+238 error extraneous: lru-cache@4.0.1 /Users/aj/Desktop/stuff/_sites/sun/node_modules/cross-spawn-async/node_modules/lru-cache
+238 error extraneous: cycle@1.0.3 /Users/aj/Desktop/stuff/_sites/sun/node_modules/cycle
+238 error extraneous: deep-equal@1.0.1 /Users/aj/Desktop/stuff/_sites/sun/node_modules/deep-equal
+238 error extraneous: eyes@0.1.8 /Users/aj/Desktop/stuff/_sites/sun/node_modules/eyes
+238 error extraneous: fibers@1.0.13 /Users/aj/Desktop/stuff/_sites/sun/node_modules/fibers
+238 error extraneous: flatten@1.0.2 /Users/aj/Desktop/stuff/_sites/sun/node_modules/flatten
+238 error extraneous: globby@4.1.0 /Users/aj/Desktop/stuff/_sites/sun/node_modules/globby
+238 error extraneous: object-assign@4.1.0 /Users/aj/Desktop/stuff/_sites/sun/node_modules/globby/node_modules/object-assign
+238 error extraneous: i@0.3.5 /Users/aj/Desktop/stuff/_sites/sun/node_modules/i
+238 error extraneous: json-stable-stringify@1.0.1 /Users/aj/Desktop/stuff/_sites/sun/node_modules/json-stable-stringify
+238 error extraneous: merge-stream@0.1.8 /Users/aj/Desktop/stuff/_sites/sun/node_modules/merge-stream
+238 error extraneous: readable-stream@1.0.34 /Users/aj/Desktop/stuff/_sites/sun/node_modules/merge-stream/node_modules/readable-stream
+238 error extraneous: through2@0.6.5 /Users/aj/Desktop/stuff/_sites/sun/node_modules/merge-stream/node_modules/through2
+238 error extraneous: module-deps@4.0.7 /Users/aj/Desktop/stuff/_sites/sun/node_modules/module-deps
+238 error extraneous: duplexer2@0.1.4 /Users/aj/Desktop/stuff/_sites/sun/node_modules/module-deps/node_modules/duplexer2
+238 error extraneous: isarray@1.0.0 /Users/aj/Desktop/stuff/_sites/sun/node_modules/module-deps/node_modules/isarray
+238 error extraneous: readable-stream@2.1.4 /Users/aj/Desktop/stuff/_sites/sun/node_modules/module-deps/node_modules/readable-stream
+238 error extraneous: mute-stream@0.0.6 /Users/aj/Desktop/stuff/_sites/sun/node_modules/mute-stream
+238 error extraneous: ncp@0.4.2 /Users/aj/Desktop/stuff/_sites/sun/node_modules/ncp
+238 error extraneous: nodemon@1.9.2 /Users/aj/Desktop/stuff/_sites/sun/node_modules/nodemon
+238 error extraneous: pkginfo@0.4.0 /Users/aj/Desktop/stuff/_sites/sun/node_modules/pkginfo
+238 error extraneous: prettyjson@1.1.3 /Users/aj/Desktop/stuff/_sites/sun/node_modules/prettyjson
+238 error extraneous: minimist@1.2.0 /Users/aj/Desktop/stuff/_sites/sun/node_modules/prettyjson/node_modules/minimist
+238 error extraneous: prompt@0.2.14 /Users/aj/Desktop/stuff/_sites/sun/node_modules/prompt
+238 error extraneous: rcloader@0.1.2 /Users/aj/Desktop/stuff/_sites/sun/node_modules/rcloader
+238 error extraneous: lodash@2.4.2 /Users/aj/Desktop/stuff/_sites/sun/node_modules/rcloader/node_modules/lodash
+238 error extraneous: read@1.0.7 /Users/aj/Desktop/stuff/_sites/sun/node_modules/read
+238 error extraneous: revalidator@0.1.8 /Users/aj/Desktop/stuff/_sites/sun/node_modules/revalidator
+238 error extraneous: ssh2@0.4.15 /Users/aj/Desktop/stuff/_sites/sun/node_modules/ssh2
+238 error extraneous: readable-stream@1.0.34 /Users/aj/Desktop/stuff/_sites/sun/node_modules/ssh2/node_modules/readable-stream
+238 error extraneous: ssh2-streams@0.0.23 /Users/aj/Desktop/stuff/_sites/sun/node_modules/ssh2-streams
+238 error extraneous: readable-stream@1.0.34 /Users/aj/Desktop/stuff/_sites/sun/node_modules/ssh2-streams/node_modules/readable-stream
+238 error extraneous: stack-trace@0.0.9 /Users/aj/Desktop/stuff/_sites/sun/node_modules/stack-trace
+238 error extraneous: streamsearch@0.1.2 /Users/aj/Desktop/stuff/_sites/sun/node_modules/streamsearch
+238 error extraneous: through2-filter@2.0.0 /Users/aj/Desktop/stuff/_sites/sun/node_modules/through2-filter
+238 error extraneous: util-extend@1.0.3 /Users/aj/Desktop/stuff/_sites/sun/node_modules/util-extend
+238 error extraneous: utile@0.2.1 /Users/aj/Desktop/stuff/_sites/sun/node_modules/utile
+238 error extraneous: winston@0.8.3 /Users/aj/Desktop/stuff/_sites/sun/node_modules/winston
+238 error extraneous: colors@0.6.2 /Users/aj/Desktop/stuff/_sites/sun/node_modules/winston/node_modules/colors
+238 error extraneous: pkginfo@0.3.1 /Users/aj/Desktop/stuff/_sites/sun/node_modules/winston/node_modules/pkginfo
+239 error If you need help, you may report this error at:
+239 error     <https://github.com/npm/npm/issues>
+240 verbose exit [ 1, true ]
