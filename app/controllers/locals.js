@@ -59,7 +59,7 @@ module.exports = function (app) {
 		//'Swim Spas': '/swim-spas'
 	}
 	app.locals.nav = {
-		'Welcome': '',
+		'Home': '',
 		'About Us': 'about-us',
 		//'Services': 'outdoor-living',
 		//'Portfolio': 'swimming-pools',
