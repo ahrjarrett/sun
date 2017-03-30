@@ -127,27 +127,45 @@
 		left: 0;
 	}
 }
+
+.see-photos {
+  a.see-photos-anchor {
+    //background-color: transparent;
+    border: none;
+    font-size: 22.5px;
+    margin-top: 10px;
+    display: inline-block;
+    margin-top: 10px;
+  }
+
+}
+
+.see-photos-type {
+
+}
+
 #hero-ul, #special-ul {
 	a {
 		position: relative;
 		font-family: $sans;
 	}
-	a.active-btn:after {
-		content: '';
-		border-radius: 0!important;
-		bottom: 0;
-		background: 0 0!important;
-		border-color: transparent transparent #fff;
-		border-style: solid;
-		border-width: 0 10px 10px;
-		display: inline-block;
-		margin-bottom: -21px;
-		margin-left: -5px;
-		top: auto;
-		position: absolute;
-		left: 48%;
-	}
-	a.no-after:after{display: none;}
+  // REMOVED ARROW: 3/29/17
+	//a.active-btn:after {
+	//	content: '';
+	//	border-radius: 0!important;
+	//	bottom: 0;
+	//	background: 0 0!important;
+	//	border-color: transparent transparent #fff;
+	//	border-style: solid;
+	//	border-width: 0 10px 10px;
+	//	display: inline-block;
+	//	margin-bottom: -21px;
+	//	margin-left: -5px;
+	//	top: auto;
+	//	position: absolute;
+	//	left: 48%;
+	//}
+	//a.no-after:after{display: none;}
 }
 
 

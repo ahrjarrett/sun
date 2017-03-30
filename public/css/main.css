@@ -528,25 +528,16 @@ span.carousel-btn {
     padding-left: 20px;
     padding-right: 20px;
     left: 0; } }
+.see-photos a.see-photos-anchor {
+  border: none;
+  font-size: 22.5px;
+  margin-top: 10px;
+  display: inline-block;
+  margin-top: 10px; }
+
 #hero-ul a, #special-ul a {
   position: relative;
   font-family: "OpenSans-Book", sans-serif; }
-#hero-ul a.active-btn:after, #special-ul a.active-btn:after {
-  content: '';
-  border-radius: 0 !important;
-  bottom: 0;
-  background: 0 0 !important;
-  border-color: transparent transparent #fff;
-  border-style: solid;
-  border-width: 0 10px 10px;
-  display: inline-block;
-  margin-bottom: -21px;
-  margin-left: -5px;
-  top: auto;
-  position: absolute;
-  left: 48%; }
-#hero-ul a.no-after:after, #special-ul a.no-after:after {
-  display: none; }
 
 .form-wrapper {
   position: relative; }
