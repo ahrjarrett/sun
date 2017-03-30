@@ -12,10 +12,10 @@
 8. ~~compress images~~
 9. ~~fix arrow under hero buttons~~
 10. ~~fix facebook link to correct page~~
-11. tidy up /swimming-pools images & presentation
-12. uglify public javascript assets
-13. migrate server off cloudflare to reverse proxy (e.g. nginx)
-14. on /about-us, fix "choose which services" click problem
-15. get blog up and running (fix CSS; maybe use Ghost?)
-16. **/photos route:** make into gallery, minimize imgs
-17. **create /photo route:** each photo gets its own, dynamic route
+11. ~~/photos route: make into gallery, minimize imgs~~
+12. ~~create /photo route: each photo gets its own, dynamic route~~
+13. ~~tidy up /swimming-pools images & presentation~~
+14. uglify public javascript assets
+15. migrate server off cloudflare to reverse proxy (e.g. nginx)
+16. on /about-us, fix "choose which services" click problem
+17. get blog up and running (fix CSS; maybe use Ghost?)
