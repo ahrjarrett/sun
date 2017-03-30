@@ -1,6 +1,6 @@
-#SunRayPools Repo
+# SunRayPools Repo
 
-###Todo:
+### Todo:
 
 1. ~~add /thank-you to 'do not index' in robots.txt~~
 2. ~~change BBB image to anchor tag in logos.jade~~
