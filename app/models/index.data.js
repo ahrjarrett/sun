@@ -59,7 +59,7 @@ module.exports = function IndexData(opts) {
 					body: 'Sun Ray Pools has one focus: Building unique and beautiful custom pools. Our job is to turn your dreams into a backyard reality that will be enjoyed and admired by friends and family for many years to come.',
 					bodySmall: 'Sun Ray Pools has one focus: Building unique and beautiful custom pools.',
 					anchor: {
-						route: 'swimming-pools',
+						route: 'photos',
 						text: 'Check out some pools'
 					},
 					caption: 'You can count on that.'
