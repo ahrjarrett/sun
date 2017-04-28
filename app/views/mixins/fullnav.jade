@@ -14,11 +14,6 @@ mixin fullnav(currentPath)
           each path, value in nav
             li.nav-map-li
               a.smoothScroll(href='/#{path}')=value
-      //- .nav-social-wrapper.sm-hide
-      //- 	.nav-social-top
-      //- 		each val, path in social
-      //- 			a(href=path target='_blank')
-      //- 				i(class="fa fa-#{val}")
 
       .nav-sm-only
         a
