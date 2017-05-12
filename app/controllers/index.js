@@ -2,6 +2,7 @@ var express       = require('express'),
 		router        = express.Router()
 
 var BlogData              = require('../models/blog_index.data.js'),
+    CallrailData          = require('../models/callrail.data.js'),
 		FinanceData           = require('../models/finance.data.js'),
 		IndexData             = require('../models/index.data.js'),
 		GalleryData           = require('../models/gallery.data.js'),
@@ -95,6 +96,16 @@ module.exports = function (app) {
 			showcase: data.showcase
 		})
 	})
+
+    router.get('/callrail', function (req, res, next) {
+        const data = new CallrailData()
+        res.render('callrail', {
+            title: data.title,
+            url: data.url
+        })
+    })
+
+
 
   //// BROKEN NOW: app/views/includes/menu.jade now has another row that accounts for rowone
 	//router.get('/swimming-pools', function (req, res, next) {
