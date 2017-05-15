@@ -970,6 +970,11 @@ li {
     border-radius: 2px;
     -webkit-transition: all 0.15s ease-out 0;
     transition: all 0.15s ease-out 0; }
+    .modal-body input#contact_us {
+      -webkit-transition: min-height 0.2s ease-in-out;
+      transition: min-height 0.2s ease-in-out; }
+    .modal-body input#contact_us:focus {
+      min-height: 10rem; }
   .modal-body button {
     padding: 0.9em 1.37em;
     border-radius: .3rem;

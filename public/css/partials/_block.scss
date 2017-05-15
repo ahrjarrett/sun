@@ -620,6 +620,14 @@ span.btn-inner-wrapper {
 		-webkit-transition: all 0.15s ease-out 0;
 		-moz-transition: all 0.15s ease-out 0;
 		transition: all 0.15s ease-out 0;
+    // Special styles for "Contact Us" modal
+    &#contact_us {
+        -webkit-transition: min-height 0.2s ease-in-out;
+        transition: min-height 0.2s ease-in-out;
+    }
+    &#contact_us:focus {
+        min-height: 10rem;
+    }
 	}
 	button {
 		padding: 0.9em 1.37em;
