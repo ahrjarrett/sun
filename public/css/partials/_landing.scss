@@ -30,6 +30,13 @@
 	font-family: $sansBlock;
 	}
 
+.finance-subheader {
+    padding-right: 30px;
+    @media all and (max-width: 900px) {
+        display: none;
+    }
+}
+
 .btn-accent {
 	background: $accent;
 	color: #fff;
@@ -817,5 +824,4 @@ span.headshot{
 .head.active span, .head.active:hover {
 	opacity: 1;
 }
-
 

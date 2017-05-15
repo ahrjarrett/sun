@@ -19,3 +19,4 @@
 15. migrate server off cloudflare to reverse proxy (e.g. nginx)
 16. on /about-us, fix "choose which services" click problem
 17. get blog up and running (fix CSS; maybe use Ghost?)
+18. *Important:* Fix mobile styles for /financing route

@@ -1443,6 +1443,12 @@ div.quote a:hover img {
   max-width: 840px;
   font-family: OpenSans-Book, sans-serif; }
 
+.finance-subheader {
+  padding-right: 30px; }
+  @media all and (max-width: 900px) {
+    .finance-subheader {
+      display: none; } }
+
 .btn-accent {
   background: #74c005;
   color: #fff;

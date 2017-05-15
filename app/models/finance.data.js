@@ -1,8 +1,8 @@
 
 module.exports = function () {
-  
-  this.title = 'Financing';
-	this.url = 'financing';
+
+  this.title = 'Financing'
+	this.url = 'financing'
 
   this.cta = {
     bg: 'cta03.jpg',
@@ -13,8 +13,7 @@ module.exports = function () {
       'Special Features': '/special-features',
       'Contact Us': '/#open-modal-contact'
     }
-  };
+  }
 
-  
-};
+}
 
