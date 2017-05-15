@@ -52,7 +52,7 @@ module.exports = function (app) {
 		'Home': '/',
     'About': '/about',
 		//'Swimming Pools': '/swimming-pools',
-		'Get a Quote': '#open-modal-contact',
+		'Contact Us': '#open-modal-contact',
 		'Financing': '/financing',
 		'Outdoor Living': '/outdoor-living',
     'Photos': '/photos'
@@ -72,7 +72,7 @@ module.exports = function (app) {
 		// 'About Us': 'about-us',
 		//'Special Features': 'special-features',
 		'Financing': 'financing',
-    'Get a Quote': '#open-modal-contact'
+    'Contact Us': '#open-modal-contact'
 	}
 
 	app.locals.partners = [
