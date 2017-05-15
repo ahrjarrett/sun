@@ -110,7 +110,7 @@ module.exports = function IndexData(opts) {
 					body: 'Do you have questions about building, maintaining or just owning a pool? We\'ve assembled some questions below to help you know what to expect. Check out the link below to get your questions answered.',
 					bodySmall: 'We put together a list of answers that will help you understand what to expect.',
 					anchor: {
-						route: '#open-modal-contact',
+						route: 'frequently-asked-questions',
 						text: 'Frequently asked questions'
 					},
 					caption: 'We put together a list of answers that will help you understand what to expect.'
