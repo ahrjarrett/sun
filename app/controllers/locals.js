@@ -72,6 +72,7 @@ module.exports = function (app) {
 		// 'About Us': 'about-us',
 		//'Special Features': 'special-features',
 		'Financing': 'financing',
+    'FAQ': 'frequently-asked-questions',
     'Contact Us': '#open-modal-contact'
 	}
 
