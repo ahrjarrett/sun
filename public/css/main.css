@@ -1998,6 +1998,9 @@ p.val-hidden {
     font-size: 13px;
     margin-bottom: 12.5px;
     line-height: 1.714285714; }
+  .block-text h4 {
+    line-height: 1.714285714;
+    margin-bottom: 29px; }
   .block-text a {
     font-family: OpenSans-Book, sans-serif !important;
     color: #0074e4; }
