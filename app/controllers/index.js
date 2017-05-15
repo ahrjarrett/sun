@@ -3,6 +3,7 @@ var express       = require('express'),
 
 var BlogData              = require('../models/blog_index.data.js'),
     CallrailData          = require('../models/callrail.data.js'),
+    FaqData               = require('../models/faq.data.js'),
 		FinanceData           = require('../models/finance.data.js'),
 		IndexData             = require('../models/index.data.js'),
 		GalleryData           = require('../models/gallery.data.js'),
@@ -23,9 +24,7 @@ var ForecastIo = require('forecastio')
 var weather = new ForecastIo('b4273f2056175820d34aa2636bac6ff5')
 
 module.exports = function (app) {
-
 	app.use('/', router)
-
 	router.get('/', function (req, res, next) {
 		var data = new IndexData()
 		res.render('index', {
@@ -75,6 +74,14 @@ module.exports = function (app) {
       title: data.title
     })
   })
+
+    router.get('/frequently-asked-questions', (req, res, next) => {
+        const data = new FaqData()
+        res.render('faq', {
+            title: data.title,
+            url: data.url
+        })
+    })
 
 	router.get('/outdoor-living', function (req, res, next) {
 		var data = new LandingData()

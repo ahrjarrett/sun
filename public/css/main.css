@@ -2490,3 +2490,7 @@ span.post-author strong {
 
 .photo {
   padding-bottom: 30px; }
+
+.question {
+  padding-bottom: 10px;
+  color: #0074e4; }

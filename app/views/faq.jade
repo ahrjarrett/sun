@@ -1,0 +1,8 @@
+include ./includes/layout
+include ./mixins/mixins
+body
+  block content
+  +fullnav(url)
+  +textblock(url)
+    include ./includes/_faq
+  +footerbg('black')
