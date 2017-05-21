@@ -44,12 +44,6 @@ html(lang='en')
         //-ga('create', 'UA-44566775-1', 'auto');
         //-ga('send', 'pageview');
 
-      //
-        |
-
-        This is where the Google Tag Manager code starts:
-         
-
       script.
         (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
         new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -58,11 +52,26 @@ html(lang='en')
         })(window,document,'script','dataLayer','GTM-KBXF9W');
       noscript
         iframe(src='https://www.googletagmanager.com/ns.html?id=GTM-KBXF9W', height='0', width='0', style='display:none;visibility:hidden')
-      //
-        |
 
-        This is where the Google Tag Manager code ends:
+      script.
+        window.fbAsyncInit = function() {
+        FB.init({
+        appId: '95100348886',
+        xfbml: true,
+        version: 'v2.6'
+        });
+        };
+        (function(d, s, id){
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) {return;}
+        js = d.createElement(s); js.id = id;
+        js.src = '//connect.facebook.net/en_US/sdk.js';
+        fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
+      a.fb-messenger(href='https://www.messenger.com/t/536072406475460/' target='_blank')
+        svg#Facebook_Messenger.aefbmsg-badge-btn(xmlns='http://www.w3.org/2000/svg', xmlns:xlink='http://www.w3.org/1999/xlink', version='1.1', x='0px', y='0px', width='322px', height='324px', viewbox='96 93 322 324', style='enable-background:new 96 93 322 324;', xml:space='preserve')
+          path.fb-svg(style='fill:#0084FF;', d='M257,93c-88.918,0-161,67.157-161,150c0,47.205,23.412,89.311,60,116.807V417l54.819-30.273    C225.449,390.801,240.948,393,257,393c88.918,0,161-67.157,161-150S345.918,93,257,93z M273,295l-41-44l-80,44l88-94l42,44l79-44    L273,295z', <='', body='')
 
-         
-      if ENV_DEVELOPMENT
-        script(src='http://localhost:35729/livereload.js')
+
+if ENV_DEVELOPMENT
+script(src='http://localhost:35729/livereload.js')

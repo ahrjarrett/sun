@@ -123,3 +123,28 @@ input {
   height: 36;
 }
 
+.fb-svg {
+    display: inline-block;
+    position: fixed;
+}
+
+#Facebook_Messenger {
+    width: 56px;
+    height: 56px;
+}
+
+.fb-messenger, .fb-messengermessageus {
+    position: fixed !important;
+    right: 20px;
+    bottom: 20px;
+    z-index: 9999;
+    a:hover { text-decoration: none !important; }
+}
+
+
+
+
+
+
+
+
