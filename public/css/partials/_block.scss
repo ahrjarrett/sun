@@ -7,10 +7,17 @@
 	}
 }
 
-.callrail {
-  height: 80vh;
+.callrail, .review-us-yelp, .review-us-houzz {
+  height: 78vh;
 }
 
+.review-us {
+    display: flex;
+    justify-content: space-between;
+    button { width: 250px; }
+    a.good, a.not-good { color: white; }
+    button:hover { color: white; }
+}
 
 .btn-main {
 	background: $accent;

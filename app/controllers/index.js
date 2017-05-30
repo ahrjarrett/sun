@@ -112,6 +112,19 @@ module.exports = function (app) {
         })
     })
 
+    router.get('/review-us-yelp', (req, res, next) => {
+        res.render('review_yelp', {
+            title: 'How did we do?',
+            url: 'review-us-yelp'
+        })
+    })
+
+    router.get('/review-us-houzz', (req, res, next) => {
+        res.render('review_houzz', {
+            title: 'How did we do?',
+            url: 'review-us-houzz'
+        })
+    })
 
 
   //// BROKEN NOW: app/views/includes/menu.jade now has another row that accounts for rowone

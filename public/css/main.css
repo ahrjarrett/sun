@@ -437,8 +437,22 @@ span.carousel-btn {
   .fiftypx {
     margin-top: 50px; } }
 
-.callrail {
-  height: 80vh; }
+.callrail, .review-us-yelp, .review-us-houzz {
+  height: 78vh; }
+
+.review-us {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
+  .review-us button {
+    width: 250px; }
+  .review-us a.good, .review-us a.not-good {
+    color: white; }
+  .review-us button:hover {
+    color: white; }
 
 .btn-main {
   background: #74c005;

@@ -1,0 +1,17 @@
+include ./includes/layout
+include ./mixins/mixins
+body
+  block content
+    +fullnav(url)
+    +textblock(url)
+      h1.fiftypx How Did We Do?
+      hr
+      h4
+        | Reviews are how we get a lot of our business.  Your feedback is important to us.  If you can take 60 seconds to leave us some feedback on our service, we would greatly appreciate it.
+      .review-us
+        a.good(href='https://www.houzz.com/writeReview2/cmd=r/n=sunraypools', target='_blank')
+          button.btn.btn-main Good
+        a.not-good(href='mailto:sunraypoolstx@gmail.com')
+          button.btn.btn-main Not so good
+
+    +footerbg('black')
