@@ -20,3 +20,4 @@
 16. on /about-us, fix "choose which services" click problem
 17. get blog up and running (fix CSS; maybe use Ghost?)
 18. *Important:* Fix mobile styles for /financing route
+19. Fix livereload.js to only load in development mode (05/29/17)
