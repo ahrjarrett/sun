@@ -1,0 +1,11 @@
+include ./includes/layout
+include ./mixins/mixins
+body
+  block content
+    +fullnav(url)
+    +textblock(url)
+      .contact-wrapper
+        include ./includes/_contact
+      .contact-form-wrapper
+        include ./includes/contact-form
++footerbg('black')

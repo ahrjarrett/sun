@@ -2530,3 +2530,11 @@ span.post-author strong {
 .question {
   padding-bottom: 10px;
   color: #0074e4; }
+
+.mailing-address p {
+  margin: 0px;
+  line-height: 1.5;
+  font-size: 16px; }
+.mailing-address p.indent {
+  margin-left: 20px;
+  text-decoration: underline; }

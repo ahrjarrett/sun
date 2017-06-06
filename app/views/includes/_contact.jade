@@ -1,0 +1,24 @@
+.fiftypx
+  h1= title
+  hr
+  h3 Thank you for visiting #{company}. For more information, please call us or simply fill in the form below for a personal tour of our pools and a reference list of our many happy clients.
+  hr
+  .mailing-address
+    p.indent Mailing Address:
+    p= company
+    p 21 Example St
+    p Dallas, TX 78704
+    br
+    p
+      a(href="tel:+1#{phone}")= prettifyPhone(phone)
+    p
+      a(href='mailto:#{email}') Email us
+    p
+      a(href=rootUrl)= rootUrl
+    br
+    p.indent Hours:
+    p Monday - Friday: 8:00AM - 6:00PM
+    p Saturday: 8:00AM - 4:00PM
+    p Sunday: CLOSED
+  hr
+

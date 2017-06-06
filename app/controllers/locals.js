@@ -2,6 +2,15 @@ module.exports = function (app) {
 
 	app.locals.company = 'Sun Ray Pools'
 	app.locals.phone = 9723330714
+  app.locals.prettifyPhone = phone => {
+    let ph = phone.toString()
+    return '(' + ph.slice(0,3) + ') ' + ph.slice(3,6) + '-' + ph.slice(6)
+  }
+  app.locals.email = 'bob@sunraypoolstx.com'
+  app.locals.address = [
+    '5314 Nueces Bay Dr',
+    'Rowlett, Texas, TX 75089'
+  ]
 	app.locals.rootUrl = 'https://www.sunraypoolstx.com'
 	app.locals.social = {
     'tel:+19723330714': 'phone',
@@ -52,7 +61,7 @@ module.exports = function (app) {
 		'Home': '/',
     'About': '/about',
 		//'Swimming Pools': '/swimming-pools',
-		'Contact Us': '#open-modal-contact',
+		'Contact Us': '/contact-us',
 		'Financing': '/financing',
 		'Outdoor Living': '/outdoor-living',
     'Photos': '/photos'
@@ -68,12 +77,12 @@ module.exports = function (app) {
 
 	app.locals.subnav = {
 		//'Swimming Pools': 'swimming-pools',
-		'Outdoor Living': 'outdoor-living',
+		//'Outdoor Living': 'outdoor-living',
 		// 'About Us': 'about-us',
 		//'Special Features': 'special-features',
 		'Financing': 'financing',
     'FAQ': 'frequently-asked-questions',
-    'Contact Us': '#open-modal-contact'
+    'Contact Us': '/contact-us'
 	}
 
 	app.locals.partners = [

@@ -3,6 +3,7 @@ var express       = require('express'),
 
 var BlogData              = require('../models/blog_index.data.js'),
     CallrailData          = require('../models/callrail.data.js'),
+    ContactData           = require('../models/contact.data.js'),
     FaqData               = require('../models/faq.data.js'),
 		FinanceData           = require('../models/finance.data.js'),
 		IndexData             = require('../models/index.data.js'),
@@ -107,6 +108,14 @@ module.exports = function (app) {
     router.get('/callrail', function (req, res, next) {
         const data = new CallrailData()
         res.render('callrail', {
+            title: data.title,
+            url: data.url
+        })
+    })
+
+    router.get('/contact-us', function (req, res, next) {
+        const data = new ContactData()
+        res.render('contact', {
             title: data.title,
             url: data.url
         })
