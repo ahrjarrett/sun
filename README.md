@@ -21,5 +21,5 @@
 17. get blog up and running (fix CSS; maybe use Ghost?)
 18. *Important:* Fix mobile styles for /financing route
 19. Fix livereload.js to only load in development mode (05/29/17)
-20. Contact-us route: add photo at top, break contact-info and contact-form into two columns
+20. Contact-us route: add photo at top, break contact-info and contact-form into two columns, add Google Map ([good example looks like this](http://www.cascadecustompools.com/contact-us/))
 21. Photos route: break into 6 mini-routes that show thumbnails, like [on their old site](https://clients.poolbuildermarketing.com/sun/swimming-pools.html)
