@@ -8,10 +8,6 @@ module.exports = function PhotoCategoryData(category) {
     const categoryTitle = capitalizeFirstLetter(category)
 
 
-
-
-
-
     // Models:
     const pools = {
         images: [
@@ -130,10 +126,6 @@ module.exports = function PhotoCategoryData(category) {
 
         ]
     }
-
-
-
-
 
 
     // Business Logic:

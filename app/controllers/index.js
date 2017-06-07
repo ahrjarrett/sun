@@ -141,7 +141,7 @@ module.exports = function (app) {
 
 
 
-    router.get('/:category', (req, res, next) => {
+    router.get('/gallery/:category', (req, res, next) => {
         const category = req.params.category
         const data = new PhotoCategoryData(category)
         res.render('photo-category', {
