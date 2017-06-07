@@ -2486,6 +2486,9 @@ span.post-author strong {
 @media (min-width: 1024px) {
   .container, body.single-post #z-header-bg {
     width: 994px; } }
+.photo-category-gallery-container {
+  padding-left: 20px; }
+
 #photo-category-wrapper h1 {
   color: #0074e4;
   font-family: "OpenSans-Semibold", sans-serif;
@@ -2496,13 +2499,43 @@ span.post-author strong {
   height: 150px;
   width: 260px;
   overflow: hidden;
-  margin-bottom: 20px; }
+  padding: 0;
+  margin: 0 4px 20px; }
   .photo-thumbnail img {
     width: 100%;
     height: auto; }
 
-.center-gallery {
-  margin: 0 auto !important; }
+.text-block-override {
+  padding: 0px;
+  margin-bottom: 0px;
+  margin-top: 50px; }
+  @media screen all and (min-width: 600px) {
+    .text-block-override {
+      width: 850px; } }
+  .text-block-override h1 {
+    padding-top: 30px; }
+  .text-block-override hr {
+    padding-bottom: 10px; }
+
+.static-sidebar-wrapper {
+  width: 300px; }
+
+.static-sidebar {
+  left: 0%; }
+  @media screen and (min-width: 400px) {
+    .static-sidebar {
+      display: none; } }
+  .static-sidebar h1 {
+    padding-top: 30px; }
+  .static-sidebar h3 {
+    color: #212425;
+    text-align: center; }
+    .static-sidebar h3.sidebar-category {
+      text-align: left; }
+  .static-sidebar a {
+    color: #212425; }
+    .static-sidebar a:hover {
+      color: #0074e4; }
 
 .photos-wrapper {
   padding-left: 15px;

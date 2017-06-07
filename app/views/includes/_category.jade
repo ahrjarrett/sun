@@ -1,9 +1,0 @@
-h1= title
-
-.photo-category-gallery
-  .container.photo-category-gallery-container
-    each image, idx in category.images
-      .photo-thumbnail.col-sm-3
-        a.lightbox(href=imgDir + '_' + url + '/lg/' + image + '.jpg', rel='gallery')
-          img.thumbnail(src=imgDir + '_' + url + '/tn/' + image + '.jpg')
-.fiftypx

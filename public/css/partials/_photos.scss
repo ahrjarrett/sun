@@ -1,4 +1,11 @@
 // NEW STYLES AS OF 06/06/17
+.photo-category-gallery-container {
+    // overrides bootstrap's container class padding of 15 px;
+    padding-left: 20px;
+
+}
+
+
 #photo-category-wrapper {
     h1 {
         color: $main;
@@ -16,14 +23,48 @@
         width: 100%;
         height: auto;
     }
-    margin-bottom: 20px;
+    padding: 0;
+    margin: 0 4px 20px;
 }
 
-.center-gallery {
-    margin: 0 auto !important;
+.text-block-override {
+    padding: 0px;
+    margin-bottom: 0px;
+    margin-top: 50px;
+    @media screen all and (min-width: 600px) {
+        width: 850px;
+    }
+    h1 { padding-top: 30px; }
+    hr { padding-bottom: 10px; }
 }
 
+.static-sidebar-wrapper {
+    //display: relative;
+    width: 300px;
 
+}
+
+.static-sidebar {
+    @media screen and (min-width: 400px) { display: none; }
+    //position: fixed;
+    //display: absolute;
+    left: 0%;
+    h1 {
+        padding-top: 30px;
+    }
+    h3 {
+        color: #212425;
+        text-align: center;
+        &.sidebar-category {text-align:left;}
+    }
+    a {
+        color: #212425;
+        &:hover {
+            color: $main;
+        }
+    }
+    .meta-type:before { }
+}
 
 ////////////
 // 06/06/17: Old styles -- see if these are still needed!!
