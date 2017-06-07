@@ -2,11 +2,14 @@ module.exports = function (app) {
 
 	app.locals.company = 'Sun Ray Pools'
 	app.locals.phone = 9723330714
+	app.locals.phoneAlt = 9723331080
   app.locals.prettifyPhone = phone => {
     let ph = phone.toString()
     return '(' + ph.slice(0,3) + ') ' + ph.slice(3,6) + '-' + ph.slice(6)
   }
+
   app.locals.email = 'bob@sunraypoolstx.com'
+  app.locals.emailAlt = 'diane@sunraypoolstx.com'
   app.locals.address = [
     '5314 Nueces Bay Dr',
     'Rowlett, Texas, TX 75089'

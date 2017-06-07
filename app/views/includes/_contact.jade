@@ -6,19 +6,19 @@
   .mailing-address
     p.indent Mailing Address:
     p= company
-    p 21 Example St
-    p Dallas, TX 78704
+    p= address[0]
+    p= address[1]
     br
-    p
-      a(href="tel:+1#{phone}")= prettifyPhone(phone)
-    p
-      a(href='mailto:#{email}') Email us
-    p
-      a(href=rootUrl)= rootUrl
+    p #[a(href="tel:+1#{phone}")= prettifyPhone(phoneAlt)]
+    br
+    p.indent Email Us:
+    p #[a(href='mailto:#{email}')= email]
+    p #[a(href='mailto:#{email}')= emailAlt]
     br
     p.indent Hours:
     p Monday - Friday: 8:00AM - 6:00PM
     p Saturday: 8:00AM - 4:00PM
     p Sunday: CLOSED
-  hr
+    hr
+.fiftypx
 
