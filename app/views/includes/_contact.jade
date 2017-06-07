@@ -9,7 +9,9 @@
     p= address[0]
     p= address[1]
     br
-    p #[a(href="tel:+1#{phone}")= prettifyPhone(phoneAlt)]
+    p.indent Call Us:
+    p Bob: #[a(href="tel:+1#{phone}")= prettifyPhone(phone)]
+    p Diane: #[a(href="tel:+1#{phone}")= prettifyPhone(phoneAlt)]
     br
     p.indent Email Us:
     p #[a(href='mailto:#{email}')= email]

@@ -1,12 +1,18 @@
+.fiftypx
 .text-block.text-block-override
   h1.photo-category-header(class='photo-category-header-#{url}')= title
   hr
-  .photo-category-gallery
-    .container-fluid.photo-category-gallery-container
-      each image, idx in category.images
-        .photo-thumbnail.col-xs-5
-          a.lightbox(href=imgDir + '_' + url + '/lg/' + image + '.jpg', rel='gallery')
-            img.thumbnail(src=imgDir + '_' + url + '/tn/' + image + '.jpg')
+.photo-category-gallery
+  .container.photo-category-gallery-container
+    each image, idx in category.images
+      .photo-thumbnail.col-sm-3
+        a.lightbox(href=imgDir + '_' + url + '/lg/' + image + '.jpg', rel='gallery')
+          img.thumbnail(src=imgDir + '_' + url + '/tn/' + image + '.jpg')
+
+
+
+
+
 //.static-sidebar-wrapper
 //  .static-sidebar
 //    h3.center Looking for more photos?
