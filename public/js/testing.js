@@ -81,6 +81,7 @@ $(function() {
 			Data.init0.header
 		+ '</h1>')
     $('#see-photos-type').replaceWith('<span id="see-photos-type">pools</span>')
+    $('#see-photos-anchor').attr('href', '/pools')
 	})
 
 	$('#hero1').on('click', function(e){
@@ -92,6 +93,7 @@ $(function() {
 			Data.init1.header
 		+ '</h1>')
     $('#see-photos-type').replaceWith('<span id="see-photos-type">spas</span>')
+    $('#see-photos-anchor').attr('href', '/spas')
 	})
 
 	$('#hero2').on('click', function(e){
@@ -104,6 +106,7 @@ $(function() {
 			Data.init2.header
 		+ '</h1>')
     $('#see-photos-type').replaceWith('<span id="see-photos-type">firepits</span>')
+    $('#see-photos-anchor').attr('href', '/kitchens')
 	})
 
 	$('#hero3').on('click', function(e){
@@ -117,6 +120,7 @@ $(function() {
 			+ '</h1>'
 		)
     $('#see-photos-type').replaceWith('<span id="see-photos-type">decks</span>')
+    $('#see-photos-anchor').attr('href', '/decks')
 	})
 
 	$('#hero-ul a').on('click', function(){
@@ -248,5 +252,4 @@ $(function() {
   request.fail(function(){
     console.log('Error!')
   })
-
 } )

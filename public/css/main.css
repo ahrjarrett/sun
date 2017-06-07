@@ -2486,6 +2486,24 @@ span.post-author strong {
 @media (min-width: 1024px) {
   .container, body.single-post #z-header-bg {
     width: 994px; } }
+#photo-category-wrapper h1 {
+  color: #0074e4;
+  font-family: "OpenSans-Semibold", sans-serif;
+  text-align: center; }
+
+.photo-thumbnail {
+  position: relative;
+  height: 150px;
+  width: 260px;
+  overflow: hidden;
+  margin-bottom: 20px; }
+  .photo-thumbnail img {
+    width: 100%;
+    height: auto; }
+
+.center-gallery {
+  margin: 0 auto !important; }
+
 .photos-wrapper {
   padding-left: 15px;
   padding-right: 15px;
@@ -2538,3 +2556,9 @@ span.post-author strong {
 .mailing-address p.indent {
   margin-left: 20px;
   text-decoration: underline; }
+
+.open {
+  position: relative; }
+
+ul.dropdown-margin {
+  margin-top: 10px; }

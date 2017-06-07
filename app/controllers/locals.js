@@ -18,6 +18,9 @@ module.exports = function (app) {
 		'https://twitter.com/sunraypoolstx': 'twitter-square',
 		'http://www.houzz.com/pro/sunraypools/': 'houzz'
 	}
+  app.locals.imgDir = '/images/'
+
+
 	app.locals.blog = {
 		features: [
 			{

@@ -9,6 +9,7 @@ var BlogData              = require('../models/blog_index.data.js'),
 		IndexData             = require('../models/index.data.js'),
 		GalleryData           = require('../models/gallery.data.js'),
 		LandingData           = require('../models/landing.data.js'),
+    PhotoCategoryData     = require('../models/photo-category.data.js'),
 		PhotosData            = require('../models/photos.data.js'),
 		PoolsData             = require('../models/pools.data.js'),
 		PortfolioData         = require('../models/portfolio.data.js'),
@@ -134,6 +135,26 @@ module.exports = function (app) {
             url: 'review-us-houzz'
         })
     })
+
+
+
+
+
+
+    router.get('/:category', (req, res, next) => {
+        const category = req.params.category
+        const data = new PhotoCategoryData(category)
+        res.render('photo-category', {
+            title: data.title,
+            url: data.url,
+            category: data.category
+        })
+    })
+
+
+
+
+
 
 
   //// BROKEN NOW: app/views/includes/menu.jade now has another row that accounts for rowone

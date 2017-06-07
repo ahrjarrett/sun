@@ -1,0 +1,9 @@
+include ./includes/layout
+include ./mixins/mixins
+body
+  block content
+    +fullnav(url)
+    .fiftypx
+    #photo-category-wrapper
+      include ./includes/_category
+    +footerbg('black')

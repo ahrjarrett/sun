@@ -10,10 +10,37 @@ mixin fullnav(currentPath)
       .nav-ghost-wrapper
       .nav-map-wrapper.sm-hide
 
+        // TODO: make this dynamic & pull from model;
+        // RN dropdown on 3rd item required me to pull this out
         ul.nav-map-ul
-          each path, value in nav
-            li.nav-map-li
-              a.smoothScroll(href='/#{path}')=value
+          li.nav-map-li
+            a(href='/' id='nav-map-home') Home
+          li.nav-map-li
+            a(href='/about-us' id='nav-map-about-us') About Us
+          li.nav-map-li
+            a(href='/photos' id='nav-map-photos'
+            data-toggle='dropdown'
+            aria-haspopup='true'
+            aria-expanded='false') Photos
+              span.caret(style='margin-left:5px;')
+            ul.dropdown-menu.dropdown-margin(aria-labelledby='nav-map-photos')
+              li
+                a(href='/pools') Swimming Pools
+              li
+                a(href='/spas') Spas
+              li
+                a(href='/decks') Decks
+              li
+                a(href='/waterfalls') Waterfalls
+              li
+                a(href='/kitchens') Outdoor Kitchens
+
+
+        // OLD, DYNAMIC VERSION:
+        //-ul.nav-map-ul
+        //-  each path, value in nav
+        //-    li.nav-map-li
+        //-      a.smoothScroll(href='/#{path}' id='nav-map-#{value}')=value
 
       .nav-sm-only
         a

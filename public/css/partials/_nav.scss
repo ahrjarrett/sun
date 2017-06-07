@@ -1,0 +1,10 @@
+// _nav.scss
+
+// adding this to bootstrap class OPEN ensures
+// that dropdown positions below parent
+.open {
+    position: relative;
+}
+ul.dropdown-margin {
+    margin-top: 10px;
+}

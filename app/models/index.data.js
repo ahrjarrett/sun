@@ -1,11 +1,11 @@
 module.exports = function IndexData(opts) {
 
-	this.title = 'Home';
-	this.url = '#';
+	this.title = 'Home'
+	this.url = '#'
 
 	this.buttons = [
 		'Pools', 'Spas', 'Firepits', 'Decks'
-	];
+	]
 
 	this.home = {
 		ns: 'hero',
@@ -36,7 +36,7 @@ module.exports = function IndexData(opts) {
 			bannerB: '13 Hacks for a Summer Bod',
 			btntext: 'Download'
 		}
-	};
+	}
 
 	this.info = {
 		header: 'Why Sun Ray Pools?',
@@ -76,7 +76,7 @@ module.exports = function IndexData(opts) {
 					caption: 'Tell us what we can do to help you!'
 			}
 		]
-	};
+	}
 
 	this.info1 = {
 		header: 'What else?',
@@ -116,7 +116,7 @@ module.exports = function IndexData(opts) {
 					caption: 'We put together a list of answers that will help you understand what to expect.'
 			}
 		]
-	};
+	}
 
 	this.features = {
 		rowone: {
@@ -144,7 +144,7 @@ module.exports = function IndexData(opts) {
 			1:[ 'slide08.jpg', 'Outdoor Kitchens', 'subway', 'financing', 'Custom-made and designed for outdoor living' ],
 			2:[ 'slide09.jpg', 'Patios & Decks', 'bicycle', 'swimming-pools', 'Your whole backyard, custom-built to your liking' ]
 		}
-	};
+	}
 
 	this.quotes = {
 		heads: [
@@ -174,6 +174,6 @@ module.exports = function IndexData(opts) {
 				name: ''
 			}
 		]
-	};
+	}
 
-};
+}
