@@ -122,6 +122,13 @@ module.exports = function (app) {
         })
     })
 
+    router.get('/review-us-facebook', (req, res, next) => {
+        res.render('review_facebook', {
+            title: 'How did we do?',
+            url: 'review-us-facebook'
+        })
+    })
+
     router.get('/review-us-yelp', (req, res, next) => {
         res.render('review_yelp', {
             title: 'How did we do?',
