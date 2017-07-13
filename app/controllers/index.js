@@ -129,10 +129,17 @@ module.exports = function (app) {
         })
     })
 
-    router.get('/review-us-yelp', (req, res, next) => {
-        res.render('review_yelp', {
+  router.get('/review-us-yelp', (req, res, next) => {
+    res.render('review_yelp', {
+      title: 'How did we do?',
+      url: 'review-us-yelp'
+    })
+  })
+
+    router.get('/review-us-google', (req, res, next) => {
+        res.render('review_google', {
             title: 'How did we do?',
-            url: 'review-us-yelp'
+            url: 'review-us-google'
         })
     })
 
